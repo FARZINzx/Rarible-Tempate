@@ -4,14 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Inter:wght@400;500;700;800&family=Prompt:ital,wght@0,300;0,400;0,700;1,600&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../finilize/build/tailwind.css" />
     <title>Document</title>
   </head>
   <body>
     <header
-      class="w-full bg-header-background flex items-center flex-row pl-4 pr-4 h-20 backdrop-blur-lg mr-auto ml-auto sticky"
+      class="w-full bg-header-background flex items-center justify-between flex-row pl-4 pr-4 h-20 backdrop-blur-lg mr-auto ml-auto sticky"
     >
-    <!--left header-->
+      <!--left header-->
       <div class="flex items-center">
         <!--logo-->
         <div
@@ -32,27 +42,52 @@
             ></path>
           </svg>
         </div>
+        <!--site name-->
+        <span class="hidden font-bold text-white text-2xl md:block">Rarible</span>
         <!--search icon-->
-        <div class="text-white flex items-center justify-center">
+        <div class="text-white p-3">
+          <i class="fas fa-search fa-lg flex items-center justify-center"></i>
+        </div>
+      </div>
+      <!--right header-->
+      <div class="flex items-center justify-between">
+        <div class="flex item-center justify-center mr-3 p-1">
+          <i class="fa-solid fa-circle-plus mr-1" style="color: #9b75f2"></i>
+          <span class="text-white font-bold text-sm">Create</span>
+        </div>
+        <div class="text-white mr-3 p-1">
           <svg
-            viewBox="0 0 25 24"
+            viewBox="0 0 32 32"
             fill="none"
-            width="35"
-            height="35"
+            width="34"
+            height="34"
             xlmns="http://www.w3.org/2000/svg"
-            class="sc-gueYoa frtgxB"
+            class="sc-gueYoa tkHXJ"
           >
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
-              d="M7.74658 11.125C7.74658 8.70875 9.70534 6.75 12.1216 6.75C14.5378 6.75 16.4966 8.70875 16.4966 11.125C16.4966 13.5412 14.5378 15.5 12.1216 15.5C9.70534 15.5 7.74658 13.5412 7.74658 11.125ZM12.1216 5C8.73884 5 5.99658 7.74226 5.99658 11.125C5.99658 14.5077 8.73884 17.25 12.1216 17.25C13.5005 17.25 14.773 16.7943 15.7967 16.0253C15.8212 16.0579 15.8482 16.0891 15.8779 16.1187L18.5029 18.7437C18.8446 19.0854 19.3986 19.0854 19.7403 18.7437C20.082 18.402 20.082 17.848 19.7403 17.5063L17.1153 14.8813C17.0857 14.8516 17.0545 14.8246 17.0219 14.8001C17.7909 13.7764 18.2466 12.5039 18.2466 11.125C18.2466 7.74226 15.5043 5 12.1216 5Z"
+              d="M16 3C13.2386 3 11 5.23858 11 8H9C6.79086 8 5 9.79086 5 12V23C5 25.2091 6.79086 27 9 27H23C25.2091 27 27 25.2091 27 23V12C27 9.79086 25.2091 8 23 8H21C21 5.23858 18.7614 3 16 3ZM19 8C19 6.34315 17.6569 5 16 5C14.3431 5 13 6.34315 13 8H19ZM11 10H9C7.89543 10 7 10.8954 7 12V23C7 24.1046 7.89543 25 9 25H23C24.1046 25 25 24.1046 25 23V12C25 10.8954 24.1046 10 23 10H21H11ZM13 12C13 13.6569 14.3431 15 16 15C17.6569 15 19 13.6569 19 12H21C21 14.7614 18.7614 17 16 17C13.2386 17 11 14.7614 11 12H13Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+        <div class="text-white p-2=1">
+          <svg
+            viewBox="0 0 32 32"
+            fill="none"
+            width="34"
+            height="34"
+            xlmns="http://www.w3.org/2000/svg"
+            class="sc-gueYoa tkHXJ"
+          >
+            <path
+              d="M5.05366 12.0074H26.9346C27.52 12.0074 28 11.5527 28 10.9982C28 10.4436 27.52 10 26.9346 10H5.05366C4.46829 10 4 10.4436 4 10.9982C4 11.5416 4.46829 12.0074 5.05366 12.0074ZM5.05366 16.9982H26.9346C27.52 16.9982 28 16.5434 28 16C28 15.4344 27.52 14.9797 26.9346 14.9797H5.05366C4.46829 14.9797 4 15.4344 4 16C4 16.5434 4.46829 16.9982 5.05366 16.9982ZM5.05366 22H26.9346C27.52 22 28 21.5453 28 20.9797C28 20.4251 27.52 19.9815 26.9346 19.9815H5.05366C4.46829 19.9815 4 20.4362 4 20.9797C4 21.5342 4.46829 22 5.05366 22Z"
               fill="currentColor"
             ></path>
           </svg>
         </div>
       </div>
-      <!--right header-->
-      <div></div>
     </header>
   </body>
 </html>
