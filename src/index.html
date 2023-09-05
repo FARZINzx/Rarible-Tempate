@@ -8,13 +8,51 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="flex w-full">
-      <div class="flex-1 bg-blue-950">1</div>
-      <div class="contents">
-        <div class="flex-grow w-20 bg-red-950">2</div>
-        <div class="flex-grow-0 w-16 bg-green-950 hover:ring-2">3</div>
+    <header
+      class="w-full bg-header-background flex items-center flex-row pl-4 pr-4 h-20 backdrop-blur-lg mr-auto ml-auto sticky"
+    >
+    <!--left header-->
+      <div class="flex items-center">
+        <!--logo-->
+        <div
+          class="w-10 h-10 relative rounded-lg bg-logo-background flex items-center justify-center mr-3"
+        >
+          <svg
+            width="19"
+            height="14"
+            viewBox="0 0 19 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.7927 3.74115C18.7927 5.56401 17.7277 6.47067 16.5308 6.78561C17.9633 7.21508 19 8.38897 19 10.25V13.6667H13.5337V10.4218C13.5337 9.42924 12.9494 9.0284 11.9504 9.0284H5.46627V13.6667H0V0H12.9871C16.248 0 18.7927 0.706239 18.7927 3.74115ZM5.46871 3.81832H12.8585V3.81891C12.8695 3.81852 12.8806 3.81832 12.8917 3.81832C13.3998 3.81832 13.8118 4.23545 13.8118 4.75C13.8118 5.26455 13.3998 5.68168 12.8917 5.68168C12.8806 5.68168 12.8695 5.68148 12.8585 5.68109V5.68168H5.46871V3.81832Z"
+              fill="black"
+            ></path>
+          </svg>
+        </div>
+        <!--search icon-->
+        <div class="text-white flex items-center justify-center">
+          <svg
+            viewBox="0 0 25 24"
+            fill="none"
+            width="35"
+            height="35"
+            xlmns="http://www.w3.org/2000/svg"
+            class="sc-gueYoa frtgxB"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M7.74658 11.125C7.74658 8.70875 9.70534 6.75 12.1216 6.75C14.5378 6.75 16.4966 8.70875 16.4966 11.125C16.4966 13.5412 14.5378 15.5 12.1216 15.5C9.70534 15.5 7.74658 13.5412 7.74658 11.125ZM12.1216 5C8.73884 5 5.99658 7.74226 5.99658 11.125C5.99658 14.5077 8.73884 17.25 12.1216 17.25C13.5005 17.25 14.773 16.7943 15.7967 16.0253C15.8212 16.0579 15.8482 16.0891 15.8779 16.1187L18.5029 18.7437C18.8446 19.0854 19.3986 19.0854 19.7403 18.7437C20.082 18.402 20.082 17.848 19.7403 17.5063L17.1153 14.8813C17.0857 14.8516 17.0545 14.8246 17.0219 14.8001C17.7909 13.7764 18.2466 12.5039 18.2466 11.125C18.2466 7.74226 15.5043 5 12.1216 5Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
       </div>
-      <div class="flex-1 bg-yellow-950">4</div>
-    </div>
+      <!--right header-->
+      <div></div>
+    </header>
   </body>
 </html>
