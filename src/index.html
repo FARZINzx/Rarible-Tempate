@@ -54,16 +54,19 @@
           <i class="fas fa-search fa-lg flex items-center justify-center"></i>
         </div>
         <!--input of left-->
-        <div>
-          <input type="text" class="w-80 border-none py-2 px-3 rounded-xl text-base truncate bg-header-input cursor-text mr-6 placeholder:pl-1 sm:hidden lg:block" placeholder="search for collection, NFTs or users">
+        <div class="relative">
+          <input type="text" class="w-80 border-none py-2 px-4 rounded-xl text-base truncate bg-header-input cursor-text mr-6  placeholder:pl-1 placeholder:text-sm hidden lg:block" placeholder="search for collection, NFTs or users">
+          <div class="absolute bg-icon-input items-center justify-center text-icon-color px-2 py-1 rounded-lg right-8 top-[4px] hidden lg:flex">
+            <span>/</span>
+          </div>
         </div>
         <!--tag link in left header-->
         <div class="text-header-nav-link no-underline flex p-2 font-bold text-base">
           <div class="">
-            <a href="" class="mr-6 text-header-nav-link hover:text-white duration-300">Explore</a>
+            <a href="" class="mr-6 text-header-nav-link hover:text-white duration-300 hidden lg:block">Explore</a>
           </div>
           <div class="">
-            <a href="" class="  text-header-nav-link hover:text-white duration-300">Sell</a>
+            <a href="" class="  text-header-nav-link hover:text-white duration-300 hidden lg:block">Sell</a>
           </div>
         </div>
       </div>
@@ -75,7 +78,7 @@
           <span class="text-white font-bold text-sm">Create</span>
         </div>
         <!--Create waalet btn of right-->
-        <button type="button" id="connectWalletBtn" class="bg-white text-black rounded-xl mr-6 px-3 py-2 font-bold text-sm  tex sm:hidden lg:block" onclick="connectWallet()">Connect Wallet</button>
+        <button type="button" id="connectWalletBtn" class="bg-white text-black rounded-xl mr-6 px-3 py-2 font-bold text-sm  tex hidden lg:block" onclick="connectWallet()">Connect Wallet</button>
         <div></div>
         <!--bugs shopping of right header -->
         <div class="text-white mr-3 p-1">
