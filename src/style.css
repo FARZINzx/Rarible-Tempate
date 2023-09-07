@@ -1,0 +1,8 @@
+.popUp-menu{
+     opacity:0;
+     visibility: hidden;
+}
+.relative-menu:hover .popUp-menu{
+     opacity: 1;
+     visibility: visible;
+}

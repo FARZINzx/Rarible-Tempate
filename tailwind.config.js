@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         "header-background": "#191c1fd9",
+        'popUp-menu' : '#3B3E40',
         "logo-background": "#feda03",
         "header-nav-link": "#ffffff99",
         'icon-color' : '#575A5B'
