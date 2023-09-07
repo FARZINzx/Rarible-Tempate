@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="../finilize/build/tailwind.css" />
     <title>Document</title>
   </head>
-  <body class="font-inter">
+  <body class="font-inter overflow-hidden">
     <header
-      class="w-full bg-header-background flex items-center justify-between flex-row pl-4 pr-4 h-20 backdrop-blur-lg mr-auto ml-auto sticky z-10"
+      class="w-full bg-header-background flex items-center justify-between  pl-4 pr-4 h-20 backdrop-blur-lg"
     >
       <!--left header-->
       <div class="flex items-center">
@@ -77,24 +77,24 @@
               class="relative mr-6 text-header-nav-link hover:text-white duration-300 hidden lg:block "
               >Explore</a
             >
-            <div class="absolute popUp-menu transition-all duration-300 ease-in left-[490px] w-7/12 top-[100px] ">
+            <div class="absolute popUp-menu transition-all duration-300 hidden lg:block ease-in left-96 w-dropdown mr-4 top-[100px] ">
               <div
               class="flex flex-row bg-popUp-menu border-2 border-solid border-icon-color p-8  rounded-xl">
               <div
-                class="flex flex-col flex-wrap flex-1 gap-5 pr-4 text-white border-r-2"
+                class="flex flex-col flex-wrap flex-1 gap-3 pr-4 text-white border-r-2"
               >
-                <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Collection</a>
-                <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">NFTs</a>
-                <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Users</a>
-                <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Marketplaces</a>
+                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">Collection</a>
+                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">NFTs</a>
+                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">Users</a>
+                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">Marketplaces</a>
               </div>
-              <div class="flex flex-col flex-1 pl-6 gap-5 text-white">
-                <a class=" w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Ethereum</a>
-                <a class=" w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Tezos</a>
+              <div class="flex flex-col flex-1 pl-6 gap-1 text-white">
+                <a class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Ethereum</a>
+                <a class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Tezos</a>
               </div>
-              <div class="flex flex-col flex-1 gap-5 text-white">
-                <a  class=" w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Polygon</a>
-                <a  class=" w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">Immutable X</a>
+              <div class="flex flex-col flex-1 gap-1 text-white">
+                <a  class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Polygon</a>
+                <a  class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Immutable X</a>
               </div>
             </div>
             </div>
@@ -116,7 +116,7 @@
           <i class="fa-solid fa-circle-plus mr-1" style="color: #9b75f2"></i>
           <span class="text-white font-bold text-sm">Create</span>
             <div
-            class="popUp-menu absolute flex flex-col w-128 bg-popUp-menu border-2 border-solid border-icon-color p-8 transition-all duration-300 ease-in rounded-xl -left-[30px]  top-[70px]">
+            class="popUp-menu absolute flex flex-col w-128 bg-popUp-menu border-2 border-solid border-icon-color p-8 transition-all duration-300 ease-in rounded-xl  -left-[60px]  top-[70px]">
             <div
               class="flex flex-col flex-wrap flex-1 gap-1 text-white font-bold"
             >

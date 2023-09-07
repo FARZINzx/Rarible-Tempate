@@ -491,11 +491,8 @@ video {
 .relative {
   position: relative;
 }
-.sticky {
-  position: sticky;
-}
-.-left-\[30px\] {
-  left: -30px;
+.-left-\[50px\] {
+  left: -50px;
 }
 .left-\[490px\] {
   left: 490px;
@@ -512,11 +509,29 @@ video {
 .top-\[70px\] {
   top: 70px;
 }
-.z-10 {
-  z-index: 10;
+.left-\[400px\] {
+  left: 400px;
 }
-.ml-auto {
-  margin-left: auto;
+.left-\[0px\] {
+  left: 0px;
+}
+.-left-4 {
+  left: -1rem;
+}
+.-left-96 {
+  left: -24rem;
+}
+.left-96 {
+  left: 24rem;
+}
+.-left-\[0px\] {
+  left: -0px;
+}
+.-left-\[30px\] {
+  left: -30px;
+}
+.-left-\[60px\] {
+  left: -60px;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -524,11 +539,11 @@ video {
 .mr-3 {
   margin-right: 0.75rem;
 }
+.mr-4 {
+  margin-right: 1rem;
+}
 .mr-6 {
   margin-right: 1.5rem;
-}
-.mr-auto {
-  margin-right: auto;
 }
 .flex {
   display: flex;
@@ -548,11 +563,11 @@ video {
 .w-128 {
   width: 15.2rem;
 }
-.w-7\/12 {
-  width: 58.333333%;
-}
 .w-80 {
   width: 20rem;
+}
+.w-dropdown {
+  width: 40rem;
 }
 .w-full {
   width: 100%;
@@ -584,8 +599,11 @@ video {
 .gap-1 {
   gap: 0.25rem;
 }
-.gap-5 {
-  gap: 1.25rem;
+.gap-3 {
+  gap: 0.75rem;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 .truncate {
   overflow: hidden;
@@ -632,6 +650,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(59 62 64 / var(--tw-bg-opacity));
 }
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -672,8 +698,12 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.pl-2 {
-  padding-left: 0.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.pl-1 {
+  padding-left: 0.25rem;
 }
 .pl-4 {
   padding-left: 1rem;
@@ -681,17 +711,14 @@ video {
 .pl-6 {
   padding-left: 1.5rem;
 }
+.pr-2 {
+  padding-right: 0.5rem;
+}
+.pr-3 {
+  padding-right: 0.75rem;
+}
 .pr-4 {
   padding-right: 1rem;
-}
-.pl-0 {
-  padding-left: 0px;
-}
-.pl-0\.5 {
-  padding-left: 0.125rem;
-}
-.pl-1 {
-  padding-left: 0.25rem;
 }
 .font-inter {
   font-family: Inter, sans-serif;
@@ -761,10 +788,6 @@ video {
 }
 .hover\:border-2:hover {
   border-width: 2px;
-}
-.hover\:bg-slate-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 .hover\:bg-a-back:hover {
   background-color: rgba(255,255,255,0.04);

@@ -7,7 +7,8 @@ module.exports = {
     },
     extend: {
       width : {
-         '128' : '15.2rem'
+         '128' : '15.2rem',
+         'dropdown' : '40rem',
       },
       colors: {
         "header-background": "#191c1fd9",
