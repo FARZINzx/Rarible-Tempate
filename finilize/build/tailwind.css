@@ -494,11 +494,17 @@ video {
 .sticky {
   position: sticky;
 }
+.-left-\[30px\] {
+  left: -30px;
+}
 .left-\[490px\] {
   left: 490px;
 }
 .right-8 {
   right: 2rem;
+}
+.top-\[100px\] {
+  top: 100px;
 }
 .top-\[4px\] {
   top: 4px;
@@ -539,6 +545,9 @@ video {
 .w-10 {
   width: 2.5rem;
 }
+.w-128 {
+  width: 15.2rem;
+}
 .w-7\/12 {
   width: 58.333333%;
 }
@@ -571,6 +580,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-1 {
+  gap: 0.25rem;
 }
 .gap-5 {
   gap: 1.25rem;
@@ -656,6 +668,13 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.pl-2 {
+  padding-left: 0.5rem;
+}
 .pl-4 {
   padding-left: 1rem;
 }
@@ -664,6 +683,15 @@ video {
 }
 .pr-4 {
   padding-right: 1rem;
+}
+.pl-0 {
+  padding-left: 0px;
+}
+.pl-0\.5 {
+  padding-left: 0.125rem;
+}
+.pl-1 {
+  padding-left: 0.25rem;
 }
 .font-inter {
   font-family: Inter, sans-serif;
@@ -701,9 +729,6 @@ video {
 .no-underline {
   text-decoration-line: none;
 }
-.opacity-0 {
-  opacity: 0;
-}
 .backdrop-blur-lg {
   --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -716,9 +741,6 @@ video {
 }
 .duration-300 {
   transition-duration: 300ms;
-}
-.duration-100 {
-  transition-duration: 100ms;
 }
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
@@ -740,15 +762,16 @@ video {
 .hover\:border-2:hover {
   border-width: 2px;
 }
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+.hover\:bg-a-back:hover {
+  background-color: rgba(255,255,255,0.04);
+}
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.group:hover .group-hover\:visible {
-  visibility: visible;
-}
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
 }
 @media (min-width: 768px) {
 

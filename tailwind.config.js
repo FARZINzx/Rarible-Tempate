@@ -6,6 +6,9 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
     },
     extend: {
+      width : {
+         '128' : '15.2rem'
+      },
       colors: {
         "header-background": "#191c1fd9",
         'popUp-menu' : '#3B3E40',
@@ -18,6 +21,7 @@ module.exports = {
           "radial-gradient(100% 283.68% at 100% 0%, rgb(252, 201, 20) 0%, rgb(254, 111, 55) 47.95%, rgb(198, 106, 221) 75.34%, rgb(154, 116, 241) 100%)",
         "header-input": "#ffffff0a",
         "icon-input": "#333638",
+        'a-back' : 'rgba(255,255,255,0.04)'
       },
     },
   },
