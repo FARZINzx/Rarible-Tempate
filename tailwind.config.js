@@ -11,8 +11,8 @@ module.exports = {
          'dropdown' : '40rem',
       },
       colors: {
-        "header-background": "#191C1F",
-        'popUp-menu' : 'rgba(31,34,38,.85)',
+        "header-background": "rgba(25,28,31,.85)",
+        'popUp-menu' : 'rgba(25,28,31,.85)',
         "logo-background": "#feda03",
         "header-nav-link": "#ffffff99",
         'icon-color' : '#575A5B',

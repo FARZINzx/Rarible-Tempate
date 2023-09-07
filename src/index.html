@@ -23,7 +23,7 @@
   </head>
   <body class="font-inter overflow-x-hidden bg-body-background">
     <header
-      class="w-full bg-header-background flex items-center justify-between pl-4 pr-4 h-20 backdrop-blur-lg sticky"
+      class="w-full bg-header-background flex items-center justify-between pl-4 pr-4 h-20 backdrop-blur-lg fixed"
     >
       <!--left header-->
       <div class="flex items-center">
@@ -78,10 +78,10 @@
               >Explore</a
             >
             <div
-              class="absolute popUp-menu transition-all backdrop-blur-lg duration-300 hidden lg:block ease-in left-96 w-dropdown mr-4 top-[100px]"
+              class="absolute popUp-menu transition-all duration-300 hidden lg:block ease-in left-96 w-dropdown mr-4 top-[100px]"
             >
               <div
-                class="flex flex-row bg-popUp-menu border-2 border-solid border-icon-color p-8 rounded-xl"
+                class="flex flex-row bg-popUp-menu backdrop-blur-lg border-2 border-solid border-icon-color p-8 rounded-xl"
               >
                 <div
                   class="flex flex-col flex-wrap flex-1 gap-3 pr-4 text-white border-r-2"
@@ -205,10 +205,12 @@
     <!--section 1 banner-->
     <section class="section-banner p-4">
       <div class="section-banner-table">
-        <div class="flex flex-col md:flex-row lg:p-20 xl:p-32 bg-section-1-background p-6 gap-7 rounded-xl">
+        <div
+          class=" flex flex-col md:flex-row xl:py-12 xl:px-44 mx-6 mt-20 bg-section-1-background p-6 gap-7 rounded-xl"
+        >
           <div class="section-img flex-1">
             <img
-              class="w-full h-full md:w-fit md:h-fit rounded-lg"
+              class="w-full lg:w-10/12 mx-auto rounded-lg cursor-pointer"
               src="./assets/Image/section-1-banner-1.png"
               alt="%Image"
             />
@@ -220,7 +222,9 @@
               class="uppercase font-bold text-sm text-span-color tracking-wide"
               >Minting now</span
             >
-            <h1 class="text-white text-4xl font-semibold flex items-center justify-center text-center ">
+            <h1
+              class="text-white text-4xl font-semibold flex items-center justify-center text-center"
+            >
               R is for Royalties
             </h1>
             <div
@@ -283,130 +287,58 @@
               Mint for free
             </button>
             <div
-              class="relative flex items-center justify-center text-sm overflow-hidden text-span-color2 gap-4 font-medium before:content-['.'] before:w-1 before:absolute before:left-[100px] before:top-0 before:px-3 "
+              class="relative flex items-center justify-center text-sm overflow-hidden text-span-color2 gap-4 font-medium before:content-['.'] before:w-1 before:absolute before:left-[100px] before:top-0 before:px-3"
             >
               <span class="pt-1 pl-1 pb-1 pr-2 whitespace-nowrap"
                 >65,833 minted</span
               >
-            
+
               <span>1 per wallet</span>
             </div>
           </div>
         </div>
         <!--arrow that change img-->
-        <div class="section-arrow"></div>
+        <div class=" section-arrow">
+          <div
+            class="next-swiper left-4 z-10 w-28 h-28 rounded-xl bg-header-background text-white "
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              width="24"
+              height="24"
+              xlmns="http://www.w3.org/2000/svg"
+              class="rotate-90"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </div>
+          <div class="before-swiper next-swiper left-4 z-10 w-28 h-28 rounded-xl bg-header-background text-white">
+            <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            width="24"
+            height="24"
+            xlmns="http://www.w3.org/2000/svg"
+            class="rotate-180"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          </div>
+        </div>
       </div>
       <!--time line and stop btn-->
       <div class="section-time-line"></div>
     </section>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati
-      corporis ullam saepe earum velit in debitis ut mollitia illum eaque soluta
-      maiores repellendus optio veritatis esse quia, alias atque repudiandae
-      sint consequatur porro! Voluptatem ullam impedit soluta voluptates. Facere
-      libero, perspiciatis ad ipsa, praesentium illo dignissimos nesciunt quas
-      commodi, laudantium debitis. Natus voluptate deleniti ut nesciunt eveniet
-      dignissimos libero eaque aperiam odit perferendis iste quae, iusto
-      laboriosam quibusdam quas eum quidem accusamus delectus vitae ipsam
-      eligendi incidunt. Facere dolore nesciunt tempore vero asperiores neque
-      dignissimos tenetur dolores! Reiciendis nam assumenda quibusdam aut,
-      architecto exercitationem ea maiores esse, quod vitae dolorum repellendus
-      tempora numquam perferendis! Labore iure dignissimos nesciunt natus
-      deserunt. Tenetur quaerat quo distinctio dolores minus porro cum ullam
-      exercitationem rerum officiis dolorum nostrum neque temporibus odio error
-      impedit, praesentium libero atque numquam aut omnis. Officiis
-      exercitationem atque fugiat vero ratione. Quam tempore omnis inventore
-      ullam reprehenderit dolor quis, eaque sit libero, possimus atque eos natus
-      veniam delectus dicta minima nesciunt. Accusamus asperiores dolorum
-      doloribus necessitatibus earum reprehenderit ex repellendus labore odio
-      obcaecati! Eius ducimus neque magni. Porro blanditiis cupiditate nisi quae
-      praesentium excepturi doloremque! Et ipsum unde vero ratione officia at
-      molestias commodi, id aliquam deleniti doloribus cupiditate beatae
-      similique? Ratione ex voluptas sunt minima optio quod assumenda vero harum
-      reprehenderit at! Neque repellat recusandae ab cupiditate voluptates amet
-      quod labore dolorum. Excepturi quod cumque, aut sed voluptate quisquam
-      labore similique! Delectus ullam beatae, sed in saepe nulla eos quos
-      deleniti fugiat laborum animi. Dolorum repellat deserunt tempora magni
-      laborum quis labore, cupiditate distinctio doloribus eligendi corrupti
-      impedit? Modi ipsa velit maiores iure error voluptatem incidunt debitis
-      dicta quia asperiores eius, voluptatum temporibus sed beatae, quibusdam
-      corrupti hic. Id magnam fugit nesciunt, vero quasi labore aspernatur,
-      alias provident placeat aliquam iste quo, commodi fugiat harum autem
-      molestiae odit exercitationem dolorum qui natus enim beatae! Laboriosam,
-      itaque! Illum eum minima magnam quam quae reiciendis laboriosam accusamus,
-      aut beatae distinctio eius voluptatum maiores. At, pariatur dolorum
-      aspernatur ducimus beatae, distinctio vel repudiandae odio animi maiores
-      est incidunt? Qui consequuntur saepe odit, sequi ipsum possimus vel, sunt
-      aspernatur provident consequatur corrupti! Cumque sed obcaecati ea. Maxime
-      laboriosam, voluptatum excepturi neque at provident quis voluptate dolore.
-      Culpa delectus neque nesciunt qui, ducimus ipsam similique eligendi, hic
-      eos asperiores odio necessitatibus dignissimos quia fuga inventore aperiam
-      ex, libero molestias molestiae labore atque eum numquam odit. Eveniet
-      repellendus voluptate aliquam ipsam eius ipsum, consectetur tenetur, quasi
-      minus provident quisquam doloremque eum deleniti adipisci consequuntur a
-      laboriosam impedit reprehenderit pariatur iusto! Molestias quis totam
-      assumenda id velit consequuntur nobis. Dicta laboriosam ducimus, quibusdam
-      dignissimos fugit, perspiciatis, labore id excepturi accusantium molestias
-      repellendus corporis. Aperiam voluptates laborum soluta totam nesciunt
-      explicabo modi aliquid, vel rerum quae itaque eligendi quas magni. Quis
-      incidunt veritatis sint accusantium quibusdam, inventore, doloribus
-      obcaecati mollitia blanditiis saepe, possimus ex! Itaque qui repellat
-      labore dolorum aspernatur omnis libero excepturi dolorem nobis eum, ea
-      cumque eligendi doloremque aut veniam quibusdam ducimus suscipit. Iure
-      asperiores accusamus dicta recusandae aut repudiandae obcaecati possimus
-      inventore impedit eius neque voluptas fugiat tempora est, sapiente facilis
-      at, consequatur iusto atque corporis similique perspiciatis libero totam?
-      Alias incidunt esse neque sequi assumenda consectetur, quibusdam dolores
-      unde odit obcaecati dignissimos fugiat, reiciendis eum, aperiam cumque non
-      est sed quo adipisci mollitia accusantium fuga. Itaque laborum hic
-      sapiente quod deserunt, eos repudiandae! Voluptates, dignissimos nisi,
-      doloribus fuga eius numquam vel, illum vitae maiores suscipit eum enim
-      iste a amet voluptatibus veniam. Maiores iste fuga in expedita vero
-      doloremque tempora illum, delectus dolorem dignissimos veniam officia modi
-      laborum commodi corporis a velit, provident, officiis quod. Quisquam
-      consequatur debitis eos, alias at tempore. Corrupti, libero ut impedit
-      maxime ea velit? Officia ipsam sed esse inventore voluptatum, in culpa
-      quidem iure totam tempora earum accusamus, praesentium reprehenderit rerum
-      perferendis error ut omnis doloribus exercitationem, quod excepturi
-      laborum quae odit quaerat. Corporis saepe quibusdam quae culpa repellat
-      accusantium commodi quo dignissimos delectus quia. Qui, provident eveniet
-      ducimus, dicta minus excepturi sint voluptas natus ex non incidunt unde
-      cupiditate velit soluta explicabo aliquid eius? Ipsa labore ut eius maxime
-      id nulla, iste voluptate. Quod, consequuntur mollitia laborum vero
-      corrupti dicta eaque blanditiis dolores nostrum recusandae repudiandae
-      dignissimos earum dolorum quibusdam accusantium quaerat harum delectus
-      minima! Ipsam accusantium esse velit quibusdam porro consectetur aliquam
-      aperiam cum sint rerum facere beatae rem, earum ullam minima nobis nemo ad
-      illum unde perferendis ea odio, neque nihil minus? Laborum dolores,
-      doloremque ducimus in odio recusandae quis voluptatum, commodi, maxime
-      amet cupiditate repellendus rerum mollitia exercitationem eaque.
-      Voluptatum at necessitatibus veritatis possimus, porro enim quas sequi
-      nobis temporibus expedita labore reiciendis atque consequuntur? Quasi
-      omnis alias natus doloribus commodi exercitationem maxime in deleniti.
-      Praesentium omnis quia temporibus iure nam soluta doloribus, non harum,
-      cumque minus ullam dolores! Qui laborum laudantium autem delectus
-      repudiandae doloremque, id maiores magnam quas blanditiis nihil quo, in
-      rem mollitia ut! Animi impedit unde ab quisquam error natus expedita sequi
-      eveniet nam, omnis, voluptates minima nihil fugit. Eum, exercitationem
-      earum praesentium architecto perspiciatis cupiditate dolorem, at minus
-      reprehenderit ad modi omnis, quo in! Dolore harum ea laudantium
-      perspiciatis aliquam eos, facere nemo, possimus illum quos similique cum
-      magnam saepe pariatur vel commodi consectetur tenetur atque. Recusandae
-      laborum repellat, praesentium mollitia beatae doloribus dolorum quis eos
-      maiores corporis libero voluptatem enim consequatur modi, eum deleniti
-      facilis vel quaerat labore porro reiciendis! Ducimus, temporibus nisi. Hic
-      natus eligendi optio maiores laborum quisquam illo, necessitatibus a
-      placeat voluptate in ut reiciendis numquam recusandae sint mollitia
-      blanditiis, dicta distinctio perferendis totam iste? Quos dicta minus
-      voluptatum, corporis quod culpa sit quis laudantium nisi, officiis vero
-      vel inventore vitae, pariatur mollitia odio esse aperiam omnis distinctio
-      sed sint sunt aspernatur! Consequatur consectetur tempore nihil, aliquid
-      earum pariatur, fuga aspernatur temporibus aut accusantium corrupti rerum
-      quidem quos, quibusdam est labore et! Officiis velit quo vero expedita eos
-      facere perferendis. Quae ad odit iste modi ullam aspernatur ducimus quos,
-      mollitia rerum perspiciatis? Cumque reiciendis dicta numquam impedit
-      temporibus sapiente voluptatem, necessitatibus rerum, repellat tempore non
-      eius provident culpa libero harum natus, molestiae excepturi explicabo.
-    </p>
   </body>
 </html>
