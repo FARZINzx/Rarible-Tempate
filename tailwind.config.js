@@ -15,7 +15,9 @@ module.exports = {
         'popUp-menu' : 'rgba(31,34,38,.85)',
         "logo-background": "#feda03",
         "header-nav-link": "#ffffff99",
-        'icon-color' : '#575A5B'
+        'icon-color' : '#575A5B',
+        'span-color' : 'rgba(255,255,255,0.85)',
+        'span-color2' : 'rgba(255,255,255,0.6)',
       },
       backgroundColor: {
         "text-header-color":

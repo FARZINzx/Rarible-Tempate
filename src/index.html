@@ -17,13 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Inter:wght@400;500;700;800&family=Prompt:ital,wght@0,300;0,400;0,700;1,600&family=Rubik&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="../finilize/build/tailwind.css" />
     <title>Document</title>
   </head>
-  <body class="font-inter overflow-hidden bg-body-background">
+  <body class="font-inter overflow-x-hidden bg-body-background">
     <header
-      class="w-full bg-header-background flex items-center justify-between  pl-4 pr-4 h-20 backdrop-blur-lg"
+      class="w-full bg-header-background flex items-center justify-between pl-4 pr-4 h-20 backdrop-blur-lg sticky"
     >
       <!--left header-->
       <div class="flex items-center">
@@ -74,31 +74,49 @@
           <div class="relative-menu">
             <a
               href=""
-              class="relative mr-6 text-header-nav-link hover:text-white duration-300 hidden lg:block "
+              class="relative mr-6 text-header-nav-link hover:text-white duration-300 hidden lg:block"
               >Explore</a
             >
-            <div class="absolute popUp-menu transition-all backdrop-blur-lg duration-300 hidden lg:block ease-in left-96 w-dropdown mr-4 top-[100px] ">
+            <div
+              class="absolute popUp-menu transition-all backdrop-blur-lg duration-300 hidden lg:block ease-in left-96 w-dropdown mr-4 top-[100px]"
+            >
               <div
-              class="flex flex-row bg-popUp-menu border-2 border-solid border-icon-color p-8  rounded-xl">
-              <div
-                class="flex flex-col flex-wrap flex-1 gap-3 pr-4 text-white border-r-2"
+                class="flex flex-row bg-popUp-menu border-2 border-solid border-icon-color p-8 rounded-xl"
               >
-                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">Collection</a>
-                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">NFTs</a>
-                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">Users</a>
-                <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back">Marketplaces</a>
-              </div>
-              <div class="flex flex-col flex-1 pl-6 gap-1 text-white">
-                <a class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Ethereum</a>
-                <a class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Tezos</a>
-              </div>
-              <div class="flex flex-col flex-1 gap-1 text-white">
-                <a  class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Polygon</a>
-                <a  class=" w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back">Immutable X</a>
+                <div
+                  class="flex flex-col flex-wrap flex-1 gap-3 pr-4 text-white border-r-2"
+                >
+                  <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back"
+                    >Collection</a
+                  >
+                  <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back"
+                    >NFTs</a
+                  >
+                  <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back"
+                    >Users</a
+                  >
+                  <a class="w-full pr-3 pl-1 rounded-lg py-3 hover:bg-a-back"
+                    >Marketplaces</a
+                  >
+                </div>
+                <div class="flex flex-col flex-1 pl-6 gap-1 text-white">
+                  <a class="w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back"
+                    >Ethereum</a
+                  >
+                  <a class="w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back"
+                    >Tezos</a
+                  >
+                </div>
+                <div class="flex flex-col flex-1 gap-1 text-white">
+                  <a class="w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back"
+                    >Polygon</a
+                  >
+                  <a class="w-full pr-2 pl-1 rounded-lg py-4 hover:bg-a-back"
+                    >Immutable X</a
+                  >
+                </div>
               </div>
             </div>
-            </div>
-         
           </div>
           <div class="">
             <a
@@ -112,18 +130,29 @@
       <!--right header-->
       <div class="flex items-center justify-between">
         <!--plus and create right header -->
-        <div class="relative-menu relative flex item-center justify-center mr-3 p-1 ">
+        <div
+          class="relative-menu relative flex item-center justify-center mr-3 p-1"
+        >
           <i class="fa-solid fa-circle-plus mr-1" style="color: #9b75f2"></i>
           <span class="text-white font-bold text-sm">Create</span>
-            <div
-            class="popUp-menu absolute flex flex-col w-128 bg-popUp-menu backdrop-blur-lg border-2 border-solid border-icon-color p-8 transition-all duration-300 ease-in rounded-xl  -left-[60px]  top-[70px]">
+          <div
+            class="popUp-menu absolute flex flex-col w-128 bg-popUp-menu backdrop-blur-lg border-2 border-solid border-icon-color p-8 transition-all duration-300 ease-in rounded-xl -left-[60px] top-[70px]"
+          >
             <div
               class="flex flex-col flex-wrap flex-1 gap-1 text-white font-bold"
             >
-              <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back">NFT</a>
-              <a class="w-full pr-4 pl-1 rounded-lg py-3  hover:bg-a-back">Collection</a>
-              <a class="w-full pr-4 pl-1 rounded-lg py-3  hover:bg-a-back">MarketPlace</a>
-              <a class="w-full pr-4 pl-1 rounded-lg py-3  hover:bg-a-back">NFT App</a>
+              <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back"
+                >NFT</a
+              >
+              <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back"
+                >Collection</a
+              >
+              <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back"
+                >MarketPlace</a
+              >
+              <a class="w-full pr-4 pl-1 rounded-lg py-3 hover:bg-a-back"
+                >NFT App</a
+              >
             </div>
           </div>
         </div>
@@ -173,11 +202,211 @@
         </div>
       </div>
     </header>
-    <section class="section-banner">
+    <!--section 1 banner-->
+    <section class="section-banner p-4">
       <div class="section-banner-table">
+        <div class="flex flex-col bg-section-1-background p-6 gap-7 rounded-xl">
+          <div class="section-img">
+            <img
+              class="w-full h-full rounded-lg"
+              src="./assets/Image/section-1-banner-1.png"
+              alt="%Image"
+            />
+          </div>
+          <div
+            class="section-1-detail flex flex-col justify-center items-center gap-4"
+          >
+            <span
+              class="uppercase font-bold text-sm text-span-color tracking-wide"
+              >Minting now</span
+            >
+            <h1 class="text-white text-4xl font-semibold flex items-center justify-center text-center ">
+              R is for Royalties
+            </h1>
+            <div
+              class="flex flex-row flex-wrap text-span-color2 items-center justify-center gap-2"
+            >
+              by
+              <span
+                class="gap-2 bg-a-back rounded-md flex items-center justify-center text-white"
+              >
+                <img
+                  class="w-5 h-5 rounded-lg"
+                  src="./assets/Image/logo.png"
+                  alt=""
+                />
+                Rarible
+                <svg
+                  display="block"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z"
+                    fill="rgba(255, 255, 255, 1)"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z"
+                    fill="rgb(25, 28, 31)"
+                  ></path>
+                </svg> </span
+              >on<span class="text-white flex items-center justify-center gap-1"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="24"
+                  height="24"
+                  xlmns="http://www.w3.org/2000/svg"
+                  class="sc-gueYoa dlArsp sc-cCYyox bKLviX sc-cCYyox bKLviX"
+                >
+                  <path
+                    d="M16.0738 9.34485C15.7786 9.16444 15.3948 9.16444 15.0701 9.34485L12.7675 10.728L11.2029 11.6301L8.90037 13.0132C8.60516 13.1936 8.2214 13.1936 7.89668 13.0132L6.06642 11.9307C5.77122 11.7503 5.56458 11.4196 5.56458 11.0587V8.92389C5.56458 8.56307 5.7417 8.23233 6.06642 8.05192L7.86715 6.99953C8.16236 6.81912 8.54612 6.81912 8.87084 6.99953L10.6716 8.05192C10.9668 8.23233 11.1734 8.56307 11.1734 8.92389V10.307L12.738 9.37492V7.99179C12.738 7.63096 12.5609 7.30021 12.2362 7.1198L8.90037 5.13531C8.60516 4.9549 8.2214 4.9549 7.89668 5.13531L4.50184 7.1198C4.17712 7.30021 4 7.63096 4 7.99179V11.9909C4 12.3517 4.17712 12.6824 4.50184 12.8628L7.89668 14.8473C8.19187 15.0277 8.57564 15.0277 8.90037 14.8473L11.2029 13.4943L12.7675 12.5622L15.0701 11.2091C15.3653 11.0287 15.7491 11.0287 16.0738 11.2091L17.8745 12.2615C18.1697 12.4419 18.3764 12.7726 18.3764 13.1334V15.2683C18.3764 15.6291 18.1993 15.9598 17.8745 16.1402L16.0738 17.2227C15.7786 17.4031 15.3948 17.4031 15.0701 17.2227L13.2694 16.1703C12.9742 15.9899 12.7675 15.6591 12.7675 15.2983V13.9152L11.2029 14.8473V16.2304C11.2029 16.5912 11.3801 16.922 11.7048 17.1024L15.0996 19.0869C15.3948 19.2673 15.7786 19.2673 16.1033 19.0869L19.4982 17.1024C19.7933 16.922 20 16.5912 20 16.2304V12.2314C20 11.8706 19.8228 11.5398 19.4982 11.3594L16.0738 9.34485Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+                Polygon
+              </span>
+            </div>
+            <p class="text-span-color text-base font-medium text-justify">
+              #StandForRoyalties & pledge your support for the people who have
+              made Web3 what it is today. No Speculation. No Utility. Just
+              solidarity.
+            </p>
+            <button
+              class="bg-white text-black border-white flex items-center justify-center h-12 text-sm rounded-2xl py-2 px-5 font-bold"
+            >
+              Mint for free
+            </button>
+            <div
+              class="relative flex items-center justify-center text-sm overflow-hidden text-span-color2 gap-4 font-medium before:content-['.'] before:w-1 before:absolute before:left-[100px] before:top-0 before:px-3 "
+            >
+              <span class="pt-1 pl-1 pb-1 pr-2 whitespace-nowrap"
+                >65,833 minted</span
+              >
+            
+              <span>1 per wallet</span>
+            </div>
+          </div>
+        </div>
+        <!--arrow that change img-->
         <div class="section-arrow"></div>
       </div>
+      <!--time line and stop btn-->
       <div class="section-time-line"></div>
     </section>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati
+      corporis ullam saepe earum velit in debitis ut mollitia illum eaque soluta
+      maiores repellendus optio veritatis esse quia, alias atque repudiandae
+      sint consequatur porro! Voluptatem ullam impedit soluta voluptates. Facere
+      libero, perspiciatis ad ipsa, praesentium illo dignissimos nesciunt quas
+      commodi, laudantium debitis. Natus voluptate deleniti ut nesciunt eveniet
+      dignissimos libero eaque aperiam odit perferendis iste quae, iusto
+      laboriosam quibusdam quas eum quidem accusamus delectus vitae ipsam
+      eligendi incidunt. Facere dolore nesciunt tempore vero asperiores neque
+      dignissimos tenetur dolores! Reiciendis nam assumenda quibusdam aut,
+      architecto exercitationem ea maiores esse, quod vitae dolorum repellendus
+      tempora numquam perferendis! Labore iure dignissimos nesciunt natus
+      deserunt. Tenetur quaerat quo distinctio dolores minus porro cum ullam
+      exercitationem rerum officiis dolorum nostrum neque temporibus odio error
+      impedit, praesentium libero atque numquam aut omnis. Officiis
+      exercitationem atque fugiat vero ratione. Quam tempore omnis inventore
+      ullam reprehenderit dolor quis, eaque sit libero, possimus atque eos natus
+      veniam delectus dicta minima nesciunt. Accusamus asperiores dolorum
+      doloribus necessitatibus earum reprehenderit ex repellendus labore odio
+      obcaecati! Eius ducimus neque magni. Porro blanditiis cupiditate nisi quae
+      praesentium excepturi doloremque! Et ipsum unde vero ratione officia at
+      molestias commodi, id aliquam deleniti doloribus cupiditate beatae
+      similique? Ratione ex voluptas sunt minima optio quod assumenda vero harum
+      reprehenderit at! Neque repellat recusandae ab cupiditate voluptates amet
+      quod labore dolorum. Excepturi quod cumque, aut sed voluptate quisquam
+      labore similique! Delectus ullam beatae, sed in saepe nulla eos quos
+      deleniti fugiat laborum animi. Dolorum repellat deserunt tempora magni
+      laborum quis labore, cupiditate distinctio doloribus eligendi corrupti
+      impedit? Modi ipsa velit maiores iure error voluptatem incidunt debitis
+      dicta quia asperiores eius, voluptatum temporibus sed beatae, quibusdam
+      corrupti hic. Id magnam fugit nesciunt, vero quasi labore aspernatur,
+      alias provident placeat aliquam iste quo, commodi fugiat harum autem
+      molestiae odit exercitationem dolorum qui natus enim beatae! Laboriosam,
+      itaque! Illum eum minima magnam quam quae reiciendis laboriosam accusamus,
+      aut beatae distinctio eius voluptatum maiores. At, pariatur dolorum
+      aspernatur ducimus beatae, distinctio vel repudiandae odio animi maiores
+      est incidunt? Qui consequuntur saepe odit, sequi ipsum possimus vel, sunt
+      aspernatur provident consequatur corrupti! Cumque sed obcaecati ea. Maxime
+      laboriosam, voluptatum excepturi neque at provident quis voluptate dolore.
+      Culpa delectus neque nesciunt qui, ducimus ipsam similique eligendi, hic
+      eos asperiores odio necessitatibus dignissimos quia fuga inventore aperiam
+      ex, libero molestias molestiae labore atque eum numquam odit. Eveniet
+      repellendus voluptate aliquam ipsam eius ipsum, consectetur tenetur, quasi
+      minus provident quisquam doloremque eum deleniti adipisci consequuntur a
+      laboriosam impedit reprehenderit pariatur iusto! Molestias quis totam
+      assumenda id velit consequuntur nobis. Dicta laboriosam ducimus, quibusdam
+      dignissimos fugit, perspiciatis, labore id excepturi accusantium molestias
+      repellendus corporis. Aperiam voluptates laborum soluta totam nesciunt
+      explicabo modi aliquid, vel rerum quae itaque eligendi quas magni. Quis
+      incidunt veritatis sint accusantium quibusdam, inventore, doloribus
+      obcaecati mollitia blanditiis saepe, possimus ex! Itaque qui repellat
+      labore dolorum aspernatur omnis libero excepturi dolorem nobis eum, ea
+      cumque eligendi doloremque aut veniam quibusdam ducimus suscipit. Iure
+      asperiores accusamus dicta recusandae aut repudiandae obcaecati possimus
+      inventore impedit eius neque voluptas fugiat tempora est, sapiente facilis
+      at, consequatur iusto atque corporis similique perspiciatis libero totam?
+      Alias incidunt esse neque sequi assumenda consectetur, quibusdam dolores
+      unde odit obcaecati dignissimos fugiat, reiciendis eum, aperiam cumque non
+      est sed quo adipisci mollitia accusantium fuga. Itaque laborum hic
+      sapiente quod deserunt, eos repudiandae! Voluptates, dignissimos nisi,
+      doloribus fuga eius numquam vel, illum vitae maiores suscipit eum enim
+      iste a amet voluptatibus veniam. Maiores iste fuga in expedita vero
+      doloremque tempora illum, delectus dolorem dignissimos veniam officia modi
+      laborum commodi corporis a velit, provident, officiis quod. Quisquam
+      consequatur debitis eos, alias at tempore. Corrupti, libero ut impedit
+      maxime ea velit? Officia ipsam sed esse inventore voluptatum, in culpa
+      quidem iure totam tempora earum accusamus, praesentium reprehenderit rerum
+      perferendis error ut omnis doloribus exercitationem, quod excepturi
+      laborum quae odit quaerat. Corporis saepe quibusdam quae culpa repellat
+      accusantium commodi quo dignissimos delectus quia. Qui, provident eveniet
+      ducimus, dicta minus excepturi sint voluptas natus ex non incidunt unde
+      cupiditate velit soluta explicabo aliquid eius? Ipsa labore ut eius maxime
+      id nulla, iste voluptate. Quod, consequuntur mollitia laborum vero
+      corrupti dicta eaque blanditiis dolores nostrum recusandae repudiandae
+      dignissimos earum dolorum quibusdam accusantium quaerat harum delectus
+      minima! Ipsam accusantium esse velit quibusdam porro consectetur aliquam
+      aperiam cum sint rerum facere beatae rem, earum ullam minima nobis nemo ad
+      illum unde perferendis ea odio, neque nihil minus? Laborum dolores,
+      doloremque ducimus in odio recusandae quis voluptatum, commodi, maxime
+      amet cupiditate repellendus rerum mollitia exercitationem eaque.
+      Voluptatum at necessitatibus veritatis possimus, porro enim quas sequi
+      nobis temporibus expedita labore reiciendis atque consequuntur? Quasi
+      omnis alias natus doloribus commodi exercitationem maxime in deleniti.
+      Praesentium omnis quia temporibus iure nam soluta doloribus, non harum,
+      cumque minus ullam dolores! Qui laborum laudantium autem delectus
+      repudiandae doloremque, id maiores magnam quas blanditiis nihil quo, in
+      rem mollitia ut! Animi impedit unde ab quisquam error natus expedita sequi
+      eveniet nam, omnis, voluptates minima nihil fugit. Eum, exercitationem
+      earum praesentium architecto perspiciatis cupiditate dolorem, at minus
+      reprehenderit ad modi omnis, quo in! Dolore harum ea laudantium
+      perspiciatis aliquam eos, facere nemo, possimus illum quos similique cum
+      magnam saepe pariatur vel commodi consectetur tenetur atque. Recusandae
+      laborum repellat, praesentium mollitia beatae doloribus dolorum quis eos
+      maiores corporis libero voluptatem enim consequatur modi, eum deleniti
+      facilis vel quaerat labore porro reiciendis! Ducimus, temporibus nisi. Hic
+      natus eligendi optio maiores laborum quisquam illo, necessitatibus a
+      placeat voluptate in ut reiciendis numquam recusandae sint mollitia
+      blanditiis, dicta distinctio perferendis totam iste? Quos dicta minus
+      voluptatum, corporis quod culpa sit quis laudantium nisi, officiis vero
+      vel inventore vitae, pariatur mollitia odio esse aperiam omnis distinctio
+      sed sint sunt aspernatur! Consequatur consectetur tempore nihil, aliquid
+      earum pariatur, fuga aspernatur temporibus aut accusantium corrupti rerum
+      quidem quos, quibusdam est labore et! Officiis velit quo vero expedita eos
+      facere perferendis. Quae ad odit iste modi ullam aspernatur ducimus quos,
+      mollitia rerum perspiciatis? Cumque reiciendis dicta numquam impedit
+      temporibus sapiente voluptatem, necessitatibus rerum, repellat tempore non
+      eius provident culpa libero harum natus, molestiae excepturi explicabo.
+    </p>
   </body>
 </html>
