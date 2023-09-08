@@ -206,7 +206,7 @@
     <section class="section-banner p-4">
       <div class="section-banner-table">
         <div
-          class=" flex flex-col md:flex-row xl:py-12 xl:px-44 mx-6 mt-20 bg-section-1-background p-6 gap-7 rounded-xl"
+          class=" relative flex flex-col md:flex-row xl:py-12 xl:px-44 mx-6 mt-20 bg-section-1-background p-6 gap-7 rounded-xl"
         >
           <div class="section-img flex-1">
             <img
@@ -219,8 +219,11 @@
             class="section-1-detail flex-1 flex flex-col justify-center items-center gap-4 md:items-start"
           >
             <span
-              class="uppercase font-bold text-sm text-span-color tracking-wide"
-              >Minting now</span
+              class="uppercase font-bold text-sm text-span-color tracking-wide">
+              <div class="onAir-icon mr-3 mb-0 inline-block relative rounded-full w-2 h-2 bg-white 
+              before:content[''] before:absolute before:-top-1 before:left-0 before:-ml-1 before:scale-25 before:w-4 before:h-4 before:rounded-full before:animate-ping before:bg-onAir-before-bg"></div>
+              Minting now
+              </span
             >
             <h1
               class="text-white text-4xl font-semibold flex items-center justify-center text-center"
@@ -232,7 +235,7 @@
             >
               by
               <span
-                class="gap-2 bg-a-back rounded-md flex items-center justify-center text-white"
+                class="gap-2 bg-a-back p-2 rounded-xl hover:bg-a-back-hover duration-300 flex items-center justify-center text-white"
               >
                 <img
                   class="w-5 h-5 rounded-lg"
@@ -276,7 +279,7 @@
                 Polygon
               </span>
             </div>
-            <p class="text-span-color text-center text-base font-medium">
+            <p class="text-span-color text-center text-base font-medium max-[425px]:text-sm ">
               #StandForRoyalties & pledge your support for the people who have
               made Web3 what it is today. No Speculation. No Utility. Just
               solidarity.
@@ -287,20 +290,19 @@
               Mint for free
             </button>
             <div
-              class="relative flex items-center justify-center text-sm overflow-hidden text-span-color2 gap-4 font-medium before:content-['.'] before:w-1 before:absolute before:left-[100px] before:top-0 before:px-3"
+              class="relative flex items-center justify-center text-sm overflow-hidden text-span-color2 gap-4 font-medium before:content-['.'] before:w-1 before:absolute before:left-[100px] before:flex before:items-center before:justify-center before:top-0 before:px-3"
             >
               <span class="pt-1 pl-1 pb-1 pr-2 whitespace-nowrap"
                 >65,833 minted</span
               >
-
-              <span>1 per wallet</span>
+              <span class="max-[340px]:text-xs">1 per wallet</span>
             </div>
           </div>
         </div>
         <!--arrow that change img-->
         <div class=" section-arrow">
           <div
-            class="next-swiper left-4 z-10 w-28 h-28 rounded-xl bg-header-background text-white "
+            class="absolute next-swiper left-6 bottom-1/2 flex items-center justify-center z-100 w-10 h-10 rounded-full bg-swiper-icon-bg hover:bg-swiper-icon-bg-hover duration-300 transition-all text-white "
           >
             <svg
               viewBox="0 0 24 24"
@@ -318,14 +320,14 @@
               ></path>
             </svg>
           </div>
-          <div class="before-swiper next-swiper left-4 z-10 w-28 h-28 rounded-xl bg-header-background text-white">
+          <div class="absolute before-swiper next-swiper right-6 flex items-center justify-center bottom-1/2 z-100 w-10 h-10 rounded-full bg-swiper-icon-bg hover:bg-swiper-icon-bg-hover duration-300 transition-all text-white">
             <svg
             viewBox="0 0 24 24"
             fill="none"
             width="24"
             height="24"
             xlmns="http://www.w3.org/2000/svg"
-            class="rotate-180"
+            class="-rotate-90"
           >
             <path
               fill-rule="evenodd"

@@ -3,6 +3,10 @@
      font-family: icon-swiper;
 }
 
+/* body{
+     background-color: #2c3236;
+} */
+
 .popUp-menu{
      opacity:0;
      visibility: hidden;
