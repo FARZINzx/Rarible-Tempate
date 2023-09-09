@@ -497,8 +497,14 @@ video {
 .-left-\[60px\] {
   left: -60px;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .bottom-1\/2 {
   bottom: 50%;
+}
+.left-0 {
+  left: 0px;
 }
 .left-6 {
   left: 1.5rem;
@@ -506,11 +512,20 @@ video {
 .left-96 {
   left: 24rem;
 }
+.right-0 {
+  right: 0px;
+}
 .right-6 {
   right: 1.5rem;
 }
 .right-8 {
   right: 2rem;
+}
+.top-0 {
+  top: 0px;
+}
+.top-1\/2 {
+  top: 50%;
 }
 .top-\[100px\] {
   top: 100px;
@@ -521,20 +536,8 @@ video {
 .top-\[70px\] {
   top: 70px;
 }
-.left-0 {
-  left: 0px;
-}
-.right-0 {
-  right: 0px;
-}
-.top-1\/2 {
-  top: 50%;
-}
-.bottom-0 {
-  bottom: 0px;
-}
-.top-0 {
-  top: 0px;
+.z-50 {
+  z-index: 50;
 }
 .mx-6 {
   margin-left: 1.5rem;
@@ -547,8 +550,17 @@ video {
 .mb-0 {
   margin-bottom: 0px;
 }
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .mr-1 {
   margin-right: 0.25rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-2\.5 {
+  margin-right: 0.625rem;
 }
 .mr-3 {
   margin-right: 0.75rem;
@@ -562,17 +574,11 @@ video {
 .mt-20 {
   margin-top: 5rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .mt-9 {
   margin-top: 2.25rem;
-}
-.mr-2 {
-  margin-right: 0.5rem;
-}
-.mr-2\.5 {
-  margin-right: 0.625rem;
 }
 .block {
   display: block;
@@ -585,6 +591,9 @@ video {
 }
 .hidden {
   display: none;
+}
+.h-1 {
+  height: 0.25rem;
 }
 .h-10 {
   height: 2.5rem;
@@ -601,14 +610,14 @@ video {
 .h-5 {
   height: 1.25rem;
 }
-.h-4 {
-  height: 1rem;
-}
 .h-8 {
   height: 2rem;
 }
-.h-1 {
-  height: 0.25rem;
+.w-0 {
+  width: 0px;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .w-10 {
   width: 2.5rem;
@@ -622,6 +631,9 @@ video {
 .w-5 {
   width: 1.25rem;
 }
+.w-8 {
+  width: 2rem;
+}
 .w-80 {
   width: 20rem;
 }
@@ -630,18 +642,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-4 {
-  width: 1rem;
-}
-.w-8 {
-  width: 2rem;
-}
-.w-1\/2 {
-  width: 50%;
-}
-.w-0 {
-  width: 0px;
 }
 .max-w-\[460px\] {
   max-width: 460px;
@@ -677,6 +677,9 @@ video {
 }
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-center {
   justify-content: center;
@@ -722,11 +725,11 @@ video {
 .rounded-lg {
   border-radius: 0.5rem;
 }
-.rounded-xl {
-  border-radius: 0.75rem;
-}
 .rounded-sm {
   border-radius: 0.125rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 .border-2 {
   border-width: 2px;
@@ -750,6 +753,9 @@ video {
 }
 .bg-a-back {
   background-color: rgba(255,255,255,0.04);
+}
+.bg-a-back-hover {
+  background-color: rgba(255,255,255,0.1);
 }
 .bg-body-background {
   --tw-bg-opacity: 1;
@@ -780,15 +786,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(44 50 54 / var(--tw-bg-opacity));
 }
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
 .bg-transparent {
   background-color: transparent;
 }
-.bg-a-back-hover {
-  background-color: rgba(255,255,255,0.1);
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .p-1 {
   padding: 0.25rem;
@@ -808,8 +811,12 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.p-5 {
-  padding: 1.25rem;
+.p-0 {
+  padding: 0px;
+}
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -842,6 +849,10 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -938,8 +949,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.duration-100 {
+  transition-duration: 100ms;
+}
 .duration-300 {
   transition-duration: 300ms;
+}
+.duration-150 {
+  transition-duration: 150ms;
 }
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
@@ -1041,12 +1058,12 @@ video {
 .hover\:bg-a-back:hover {
   background-color: rgba(255,255,255,0.04);
 }
+.hover\:bg-a-back-hover:hover {
+  background-color: rgba(255,255,255,0.1);
+}
 .hover\:bg-swiper-icon-bg-hover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(48 54 59 / var(--tw-bg-opacity));
-}
-.hover\:bg-a-back-hover:hover {
-  background-color: rgba(255,255,255,0.1);
 }
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
