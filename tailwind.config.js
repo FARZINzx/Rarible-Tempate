@@ -31,6 +31,7 @@ module.exports = {
         "swiper-icon-bg": "#2c3236",
         "swiper-icon-bg-hover": "#30363B",
         "onAir-before-bg": "rgba(255,255,255,.2)",
+        'div-chart-bg' : 'rgb(25,28,31)'
       },
     },
   },

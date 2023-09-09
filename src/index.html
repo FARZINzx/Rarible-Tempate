@@ -22,7 +22,8 @@
     <title>Document</title>
   </head>
   <body class="font-inter overflow-x-hidden bg-body-background">
-    <header class="w-full bg-header-background flex items-center z-50 justify-between pl-4 pr-4 h-20 backdrop-blur-lg fixed"
+    <header
+      class="w-full bg-header-background flex items-center z-50 justify-between pl-4 pr-4 h-20 backdrop-blur-lg fixed"
     >
       <!--left header-->
       <div class="flex items-center">
@@ -205,7 +206,7 @@
     <section class="section-banner p-4">
       <div class="section-banner-table">
         <div
-          class=" relative flex flex-col md:flex-row xl:py-12 xl:px-44 mx-6 mt-20 bg-section-1-background p-6 gap-7 rounded-xl"
+          class="relative flex flex-col md:flex-row xl:py-12 xl:px-44 mx-6 mt-20 bg-section-1-background p-6 gap-7 rounded-xl"
         >
           <div class="section-img flex-1">
             <img
@@ -218,12 +219,13 @@
             class="section-1-detail flex-1 flex flex-col justify-center items-center gap-4 md:items-start"
           >
             <span
-              class="uppercase font-bold text-sm text-span-color tracking-wide">
-              <div class="onAir-icon mr-3 mb-0 inline-block relative rounded-full w-2 h-2 bg-white 
-              before:content[''] before:absolute before:-top-1 before:left-0 before:-ml-1 before:scale-25 before:w-4 before:h-4 before:rounded-full before:animate-ping before:bg-onAir-before-bg"></div>
-              Minting now
-              </span
+              class="uppercase font-bold text-sm text-span-color tracking-wide"
             >
+              <div
+                class="onAir-icon mr-3 mb-0 inline-block relative rounded-full w-2 h-2 bg-white before:content[''] before:absolute before:-top-1 before:left-0 before:-ml-1 before:scale-25 before:w-4 before:h-4 before:rounded-full before:animate-ping before:bg-onAir-before-bg"
+              ></div>
+              Minting now
+            </span>
             <h1
               class="text-white text-4xl font-semibold flex items-center justify-center text-center"
             >
@@ -278,7 +280,9 @@
                 Polygon
               </span>
             </div>
-            <p class="text-span-color text-center text-base font-medium max-[425px]:text-sm ">
+            <p
+              class="text-span-color text-center text-base font-medium max-[425px]:text-sm"
+            >
               #StandForRoyalties & pledge your support for the people who have
               made Web3 what it is today. No Speculation. No Utility. Just
               solidarity.
@@ -299,9 +303,9 @@
           </div>
         </div>
         <!--arrow that change img-->
-        <div class=" section-arrow">
+        <div class="section-arrow">
           <div
-            class="absolute next-swiper left-6 bottom-1/2 flex items-center justify-center z-100 w-10 h-10 rounded-full bg-swiper-icon-bg hover:bg-swiper-icon-bg-hover duration-300 transition-all text-white "
+            class="absolute next-swiper left-6 bottom-1/2 flex items-center justify-center z-100 w-10 h-10 rounded-full bg-swiper-icon-bg hover:bg-swiper-icon-bg-hover duration-300 transition-all text-white"
           >
             <svg
               viewBox="0 0 24 24"
@@ -319,61 +323,103 @@
               ></path>
             </svg>
           </div>
-          <div class="absolute before-swiper next-swiper right-6 flex items-center justify-center bottom-1/2 z-100 w-10 h-10 rounded-full bg-swiper-icon-bg hover:bg-swiper-icon-bg-hover duration-300 transition-all text-white">
-            <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            width="24"
-            height="24"
-            xlmns="http://www.w3.org/2000/svg"
-            class="-rotate-90"
+          <div
+            class="absolute before-swiper next-swiper right-6 flex items-center justify-center bottom-1/2 z-100 w-10 h-10 rounded-full bg-swiper-icon-bg hover:bg-swiper-icon-bg-hover duration-300 transition-all text-white"
           >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z"
-              fill="currentColor"
-            ></path>
-          </svg>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              width="24"
+              height="24"
+              xlmns="http://www.w3.org/2000/svg"
+              class="-rotate-90"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z"
+                fill="currentColor"
+              ></path>
+            </svg>
           </div>
         </div>
       </div>
       <!--time line and stop btn-->
-      <div class="section-time-line max-w-[460px] w-full mt-9 mx-auto mb-2 gap-2">
+      <div
+        class="section-time-line max-w-[460px] w-full mt-9 mx-auto mb-2 gap-2"
+      >
         <div class="mx-6 flex item-center justify-center">
-          <div class="pause-play bg-swiper-icon-bg w-8 h-8 flex items-center justify-center rounded-full mr-4">
+          <div
+            class="pause-play bg-swiper-icon-bg w-8 h-8 flex items-center justify-center rounded-full mr-4"
+          >
             <i class="fa-solid fa-pause" style="color: #ffffff"></i>
-            <i class="fa-solid fa-play hidden" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-play hidden" style="color: #ffffff"></i>
           </div>
           <div class="lines flex item-center justify-center w-full">
-            <button class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center ">
-              <div class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover">
-                <div class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-1/2"></div>
+            <button
+              class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center"
+            >
+              <div
+                class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover"
+              >
+                <div
+                  class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-1/2"
+                ></div>
               </div>
             </button>
-            <button class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center ">
-              <div class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover">
-                <div class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"></div>
+            <button
+              class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center"
+            >
+              <div
+                class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover"
+              >
+                <div
+                  class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"
+                ></div>
               </div>
             </button>
-            <button class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center ">
-              <div class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover">
-                <div class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"></div>
+            <button
+              class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center"
+            >
+              <div
+                class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover"
+              >
+                <div
+                  class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"
+                ></div>
               </div>
             </button>
-            <button class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center ">
-              <div class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover">
-                <div class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"></div>
+            <button
+              class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center"
+            >
+              <div
+                class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover"
+              >
+                <div
+                  class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"
+                ></div>
               </div>
             </button>
-            <button class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center ">
-              <div class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover">
-                <div class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"></div>
+            <button
+              class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2 flex-1 bg-transparent flex items-center justify-center"
+            >
+              <div
+                class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover"
+              >
+                <div
+                  class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"
+                ></div>
               </div>
             </button>
-            <button class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2flex-1 bg-transparent flex items-center justify-center ">
-              <div class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover">
-                <div class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"></div>
+            <button
+              class="relative mr-2.5 mb-0 h-1 border-none cursor-pointer top-1/2flex-1 bg-transparent flex items-center justify-center"
+            >
+              <div
+                class="absolute top-1/2 left-0 right-0 h-1 rounded-xm overflow-hidden origin-center bg-a-back-hover"
+              >
+                <div
+                  class="bg-white absoloute top-0 bottom-0 left-0 right-0 h-1 rounded-sm w-0"
+                ></div>
               </div>
             </button>
           </div>
@@ -382,13 +428,96 @@
     </section>
     <section class="secrion-chart mt-6 px-8">
       <div class="section-chart-heading w-full flex items-center justify-start">
-        <button class="text-white border-none mr-4 p-0 text-2xl font-bold bg-transparent">Collection</button>
-        <button class="text-span-color2 border-none p-0 text-2xl font-bold bg-transparent hover:text-white duration-150">MarketPlaces</button>
+        <button
+          class="text-white border-none mr-4 p-0 text-xl sm:text-2xl font-bold bg-transparent"
+        >
+          Collection
+        </button>
+        <button
+          class="text-span-color2 border-none p-0 text-xl sm:text-2xl font-bold bg-transparent hover:text-white duration-150"
+        >
+          MarketPlaces
+        </button>
       </div>
-      <div class="section-chart-filter"></div>
+      <div class="section-chart-filter flex flex-col flex-wrap w-full mb-6 p-4">
+        <div
+          class="w-full min-w-fit h-10 p-1 flex mx-auto  items-center bg-a-back rounded-2xl relative"
+        >
+        <div class="w-[71px] h-9 absolute top-0 left-0 bottom-0 rounded-2xl bg-div-chart-bg z-0 m-1 "></div>
+        <div class="flex justify-between w-full">
+          <button class="flex-1 flex items-center justify-center">
+            <span class="text-white z-20">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                width="24"
+                height="24"
+                xlmns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M17 12.1471L11.9997 4L7.00146 12.1471L11.9997 15.0839L17 12.1471ZM17 13.0803L11.9998 15.979L6.99818 13.0775L11.9998 19.9972L17 13.0803Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </button>
+          <button class="flex-1 flex items-center justify-center">
+            <span class="text-span-color2 z-20">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                width="24"
+                height="24"
+                xlmns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.0738 9.34485C15.7786 9.16444 15.3948 9.16444 15.0701 9.34485L12.7675 10.728L11.2029 11.6301L8.90037 13.0132C8.60516 13.1936 8.2214 13.1936 7.89668 13.0132L6.06642 11.9307C5.77122 11.7503 5.56458 11.4196 5.56458 11.0587V8.92389C5.56458 8.56307 5.7417 8.23233 6.06642 8.05192L7.86715 6.99953C8.16236 6.81912 8.54612 6.81912 8.87084 6.99953L10.6716 8.05192C10.9668 8.23233 11.1734 8.56307 11.1734 8.92389V10.307L12.738 9.37492V7.99179C12.738 7.63096 12.5609 7.30021 12.2362 7.1198L8.90037 5.13531C8.60516 4.9549 8.2214 4.9549 7.89668 5.13531L4.50184 7.1198C4.17712 7.30021 4 7.63096 4 7.99179V11.9909C4 12.3517 4.17712 12.6824 4.50184 12.8628L7.89668 14.8473C8.19187 15.0277 8.57564 15.0277 8.90037 14.8473L11.2029 13.4943L12.7675 12.5622L15.0701 11.2091C15.3653 11.0287 15.7491 11.0287 16.0738 11.2091L17.8745 12.2615C18.1697 12.4419 18.3764 12.7726 18.3764 13.1334V15.2683C18.3764 15.6291 18.1993 15.9598 17.8745 16.1402L16.0738 17.2227C15.7786 17.4031 15.3948 17.4031 15.0701 17.2227L13.2694 16.1703C12.9742 15.9899 12.7675 15.6591 12.7675 15.2983V13.9152L11.2029 14.8473V16.2304C11.2029 16.5912 11.3801 16.922 11.7048 17.1024L15.0996 19.0869C15.3948 19.2673 15.7786 19.2673 16.1033 19.0869L19.4982 17.1024C19.7933 16.922 20 16.5912 20 16.2304V12.2314C20 11.8706 19.8228 11.5398 19.4982 11.3594L16.0738 9.34485Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </button>
+          <button class="flex-1 flex items-center justify-center">
+            <span class="text-span-color2 z-20">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                width="24"
+                height="24"
+                xlmns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.0681 19.5608C13.0032 19.5608 12.2276 19.2934 11.7403 18.7587C11.2535 18.2241 11.0099 17.6476 11.0099 17.0298C11.0099 16.804 11.0522 16.6139 11.1372 16.4595C11.2201 16.3071 11.3404 16.1808 11.4857 16.0939C11.6329 16.0047 11.814 15.9603 12.0293 15.9603C12.2447 15.9603 12.4256 16.0047 12.573 16.0939C12.7202 16.183 12.8363 16.305 12.9213 16.4595C13.0062 16.6139 13.0486 16.804 13.0486 17.0298C13.0486 17.3031 12.9863 17.5258 12.8618 17.6982C12.7371 17.8706 12.5899 17.9833 12.42 18.037C12.5674 18.2506 12.7996 18.4021 13.1167 18.4913C13.4338 18.5865 13.751 18.6339 14.0681 18.6339C14.5097 18.6339 14.909 18.5092 15.2659 18.2597C15.6226 18.01 15.8861 17.6417 16.056 17.1546C16.226 16.6674 16.3109 16.1147 16.3109 15.4967C16.3109 14.8254 16.2173 14.2519 16.0305 13.7767C15.8491 13.2955 15.5802 12.939 15.2233 12.7072C14.8774 12.4788 14.4768 12.3583 14.0681 12.3598C13.7961 12.3598 13.4565 12.4786 13.0486 12.7163L12.3011 13.1084V12.7163L15.6652 8.01058H11.0099V12.8943C11.0099 13.2984 11.0948 13.6311 11.2647 13.8926C11.4346 14.1541 11.6951 14.2848 12.0464 14.2848C12.3179 14.2848 12.5786 14.1897 12.8279 13.9994C13.0787 13.8075 13.297 13.5726 13.4734 13.3046C13.4961 13.2508 13.5244 13.2123 13.5583 13.1884C13.5889 13.1602 13.6281 13.1444 13.6688 13.144C13.7311 13.144 13.8046 13.1767 13.8897 13.2422C13.9691 13.337 14.0086 13.447 14.0086 13.5717C13.9989 13.6557 13.9847 13.7391 13.966 13.8214C13.7737 14.273 13.5073 14.6175 13.1675 14.8551C12.8367 15.0899 12.4458 15.2142 12.0464 15.2117C11.0382 15.2117 10.3414 15.0037 9.95643 14.588C9.57143 14.1718 9.37881 13.6073 9.37881 12.8945V8.01058H7V7.10136H9.37881V5.03395L8.83513 4.46308V4H10.4151L11.0096 4.32067V7.10136L17.1603 7.08368L17.772 7.72527L14.0002 11.6823C14.2286 11.5868 14.469 11.5268 14.7138 11.5041C15.1215 11.5041 15.5802 11.6408 16.09 11.9141C16.6053 12.1815 17.0018 12.55 17.2791 13.019C17.5567 13.4826 17.7351 13.9282 17.8144 14.356C17.8994 14.7839 17.942 15.164 17.942 15.4967C17.942 16.2574 17.7889 16.9643 17.4832 17.6181C17.1773 18.2715 16.713 18.7587 16.09 19.0796C15.467 19.4005 14.7929 19.5608 14.0681 19.5608Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </button>
+          <button class="flex-1 flex items-center justify-center">
+            <span class="text-span-color2 z-20">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                width="24"
+                height="24"
+                xlmns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.64031 18.0427H4L9.02886 12.3187C9.19073 12.1382 9.19073 11.862 9.02886 11.6815L4.04317 6H5.61873L10.6368 11.724C10.7663 11.8939 10.7879 12.1382 10.6476 12.2974C9.33102 13.7948 5.64031 18.0427 5.64031 18.0427ZM18.9678 6H17.3923L11.0469 13.2745C10.885 13.455 10.8742 13.7417 11.0361 13.9223L11.2087 14.1346L14.6081 18.0427H16.2484L12.5685 13.8267C12.4066 13.6355 12.4174 13.3594 12.5793 13.1789L18.9678 6ZM13.7339 13.3912C13.7015 13.5399 13.7339 13.7098 13.8418 13.8266C14.7591 14.878 17.5109 18.0426 17.5109 18.0426H19.0002L14.3059 12.7009L13.885 13.1576C13.8202 13.2213 13.7663 13.3062 13.7339 13.3912ZM6.87061 6H8.38142C8.38142 6 11.0901 9.18589 12.0613 10.1629C12.2232 10.3222 12.1908 10.524 12.0505 10.6833C11.5326 11.2886 11.5218 11.2992 11.5218 11.2992L6.87061 6ZM12.9138 9.69564L16.1404 6H14.608L12.9246 7.93277L12.4389 8.49562C12.2771 8.67615 12.2663 8.95226 12.4282 9.14341C12.5469 9.28147 12.9138 9.69564 12.9138 9.69564ZM6.88135 18.0426L10.108 14.3469L10.5828 14.8991C10.7447 15.0903 10.7339 15.3664 10.5721 15.5469L10.0864 16.1098L8.40296 18.0426H6.88135Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </span>
+          </button>
+        </div>
+        </div>
+      </div>
       <div class="section-chart-data"></div>
       <div class="section-chart-btn"></div>
-
     </section>
   </body>
 </html>
