@@ -9,6 +9,7 @@ module.exports = {
       '100': '100px',
       '90': '90px',
       '80': '80px',
+      '118' : '118px',
       'full' : 'max-content',
     },
     minHeight : {
@@ -28,6 +29,8 @@ module.exports = {
         "span-color": "rgba(255,255,255,0.85)",
         "span-color2": "rgba(255,255,255,0.6)", 
         'border-color' : 'rgba(255,255,255,0.08)',
+        'span-green' : 'rgb(40,184,51)',
+        'span-red' : 'rgb(233,73,73)',
       },
       backgroundColor: {
         "text-header-color":
@@ -42,7 +45,9 @@ module.exports = {
         "swiper-icon-bg-hover": "#30363B",
         "onAir-before-bg": "rgba(255,255,255,.2)",
         'div-chart-bg' : 'rgb(25,28,31)',
-        'chart-eth-bg' : 'rgba(255,255,255,0.08)'
+        'chart-eth-bg' : 'rgba(255,255,255,0.08)',
+        'plus-bg' : "rgba(255,255,255,.3)",
+        'NFT-market' : 'rgba(25, 28, 31, 0.6)',
 
       },
     },
