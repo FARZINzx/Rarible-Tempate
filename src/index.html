@@ -426,8 +426,10 @@
         </div>
       </div>
     </section>
-    <section class="secrion-chart mt-6 px-8">
-      <div class="section-chart-heading w-full flex items-center justify-start">
+    <section class="secrion-chart mt-6 px-2">
+      <div
+        class="section-chart-heading w-full flex items-center justify-start p-3"
+      >
         <button
           class="text-white border-none mr-4 p-0 text-xl sm:text-2xl font-bold bg-transparent"
         >
@@ -439,10 +441,8 @@
           MarketPlaces
         </button>
       </div>
-      <div class="section-chart-filter flex flex-col flex-wrap w-full mb-8 p-4">
-        <div
-          class="w-full min-w-fit h-12 p-1 flex mx-auto items-center bg-a-back rounded-2xl relative mb-6"
-        >
+      <div class="section-chart-filter flex flex-col sm:flex-row max-w-5xl items-center justify-center flex-wrap w-full mb-8 p-4">
+        <div class=" w-full  h-12 p-1 flex mx-2 items-center justify-center bg-a-back rounded-2xl relative mb-6 flex-1 ">
           <div class="flex justify-between w-full">
             <button
               class="flex-1 flex items-center justify-center bg-div-chart-bg p-2 rounded-lg"
@@ -516,42 +516,56 @@
             </button>
           </div>
         </div>
-        <div
-          class="w-full min-w-fit h-12 p-1 flex mx-auto items-center bg-a-back rounded-2xl relative"
-        >
+        <div class=" w-full  h-12 p-1 flex mx-2 items-center bg-a-back justify-center rounded-2xl relative mb-6 flex-1" >
           <div class="flex justify-between w-full">
             <button
               class="flex-1 flex items-center justify-center bg-div-chart-bg p-2 rounded-lg"
             >
-              <span class="text-white z-20 font-bold">
-               1H
-              </span>
+              <span class="text-white z-20 font-bold"> 1H </span>
             </button>
             <button class="flex-1 flex items-center justify-center">
-              <span class="text-span-color2 z-20 font-bold">
-               1D
-              </span>
+              <span class="text-span-color2 z-20 font-bold"> 1D </span>
             </button>
             <button class="flex-1 flex items-center justify-center">
-              <span class="text-span-color2 z-20 font-bold">
-               7D
-              </span>
+              <span class="text-span-color2 z-20 font-bold"> 7D </span>
             </button>
             <button class="flex-1 flex items-center justify-center">
-              <span class="text-span-color2 z-20 font-bold">
-               30D
-              </span>
+              <span class="text-span-color2 z-20 font-bold"> 30D </span>
             </button>
           </div>
         </div>
-        <div class="flex items-center justify-center">
-          <span class="text-white text-xl ">Floor price</span>
-          <div></div>
-          <div></div>
-          <span class="uppercase text-span-color2 cursor-not-allowed inline-flex items-center justify-center h-full">ETH</span>
+       <!-- <div class=" w-full  justify-betweenh-12 p-1 flex mx-2 items-center justify-center flex-1">
+           <div class="text-xs text-span-color mr-4">Floor price</div>
+          <div
+            class="bg-a-back rounded-xl min-w-100 min-h-40 py-2 px-3 text-sm mr-2 flex item-center justify-center cursor-text"
+          >
+            <input
+              class="bg-transparent p-1 w-16 placeholder:text-span-color2"
+              placeholder="Min"
+            />
+          </div>
+          <span class="text-span-color2 flex items-center justify-center p-1 mr-2">—</span>
+          <div
+            class="bg-a-back rounded-xl min-w-100 min-w-[320px]:min-w-80 min-h-40 py-2 px-3 text-sm mr-2 flex item-center justify-center cursor-text"
+          >
+            <input
+              class="bg-transparent p-1 w-16 placeholder:text-span-color2"
+              placeholder="Max"
+            />
+          </div>
+          <span
+          class="uppercase text-span-color2 cursor-not-allowed flex items-center justify-center bg-chart-eth-bg h-10 border-none text-sm rounded-xl font-bold py-2 px-3">
+          ETH
+        </span> 
+      </div> -->
+      </div>
+      <div class="section-chart-data">
+        <div class ="flex px-4 py-8">
+          <div class="border-2 border-border-color">
+
+          </div>
         </div>
       </div>
-      <div class="section-chart-data"></div>
       <div class="section-chart-btn"></div>
     </section>
   </body>

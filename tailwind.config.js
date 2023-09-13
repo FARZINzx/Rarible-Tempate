@@ -5,6 +5,14 @@ module.exports = {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
+    minWidth: {
+      '100': '100px',
+      '90': '90px',
+      '80': '80px',
+    },
+    minHeight : {
+      '40' : '40px'
+    },
     extend: {
       width: {
         128: "15.2rem",
@@ -17,7 +25,8 @@ module.exports = {
         "header-nav-link": "#ffffff99",
         "icon-color": "#575A5B",
         "span-color": "rgba(255,255,255,0.85)",
-        "span-color2": "rgba(255,255,255,0.6)",
+        "span-color2": "rgba(255,255,255,0.6)", 
+        'border-color' : 'rgba(255,255,255,0.08)',
       },
       backgroundColor: {
         "text-header-color":
@@ -31,7 +40,9 @@ module.exports = {
         "swiper-icon-bg": "#2c3236",
         "swiper-icon-bg-hover": "#30363B",
         "onAir-before-bg": "rgba(255,255,255,.2)",
-        'div-chart-bg' : 'rgb(25,28,31)'
+        'div-chart-bg' : 'rgb(25,28,31)',
+        'chart-eth-bg' : 'rgba(255,255,255,0.08)'
+
       },
     },
   },

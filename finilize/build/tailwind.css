@@ -536,17 +536,15 @@ video {
 .top-\[70px\] {
   top: 70px;
 }
-.z-50 {
-  z-index: 50;
-}
 .z-20 {
   z-index: 20;
 }
-.z-0 {
-  z-index: 0;
+.z-50 {
+  z-index: 50;
 }
-.m-1 {
-  margin: 0.25rem;
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .mx-6 {
   margin-left: 1.5rem;
@@ -565,8 +563,8 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mr-0 {
-  margin-right: 0px;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -628,8 +626,8 @@ video {
 .h-8 {
   height: 2rem;
 }
-.h-9 {
-  height: 2.25rem;
+.min-h-40 {
+  min-height: 40px;
 }
 .w-0 {
   width: 0px;
@@ -643,6 +641,9 @@ video {
 .w-128 {
   width: 15.2rem;
 }
+.w-16 {
+  width: 4rem;
+}
 .w-2 {
   width: 0.5rem;
 }
@@ -655,18 +656,17 @@ video {
 .w-80 {
   width: 20rem;
 }
-.w-\[71px\] {
-  width: 71px;
-}
 .w-dropdown {
   width: 40rem;
 }
 .w-full {
   width: 100%;
 }
-.min-w-fit {
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+.min-w-100 {
+  min-width: 100px;
+}
+.max-w-5xl {
+  max-width: 64rem;
 }
 .max-w-\[460px\] {
   max-width: 460px;
@@ -684,6 +684,9 @@ video {
 .rotate-90 {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.cursor-not-allowed {
+  cursor: not-allowed;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -776,6 +779,9 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
+.border-border-color {
+  border-color: rgba(255,255,255,0.08);
+}
 .bg-a-back {
   background-color: rgba(255,255,255,0.04);
 }
@@ -783,6 +789,13 @@ video {
   background-color: rgba(255,255,255,0.1);
 }
 .bg-body-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 28 31 / var(--tw-bg-opacity));
+}
+.bg-chart-eth-bg {
+  background-color: rgba(255,255,255,0.08);
+}
+.bg-div-chart-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(25 28 31 / var(--tw-bg-opacity));
 }
@@ -817,10 +830,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-div-chart-bg {
-  --tw-bg-opacity: 1;
-  background-color: rgb(25 28 31 / var(--tw-bg-opacity));
 }
 .p-0 {
   padding: 0px;
@@ -859,10 +868,6 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -878,6 +883,10 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -928,6 +937,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1000,6 +1013,12 @@ video {
 .placeholder\:text-sm::placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.placeholder\:text-span-color2::-moz-placeholder {
+  color: rgba(255,255,255,0.6);
+}
+.placeholder\:text-span-color2::placeholder {
+  color: rgba(255,255,255,0.6);
 }
 .before\:absolute::before {
   content: var(--tw-content);
@@ -1110,6 +1129,10 @@ video {
   }
 }
 @media (min-width: 640px) {
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 
   .sm\:text-2xl {
     font-size: 1.5rem;

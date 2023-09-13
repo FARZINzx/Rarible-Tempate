@@ -16,3 +16,7 @@
      visibility: visible;
      transform: translateY(-30px);
 }
+
+.chart-input {
+     min-width: 80px;
+}
