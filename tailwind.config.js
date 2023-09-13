@@ -9,6 +9,7 @@ module.exports = {
       '100': '100px',
       '90': '90px',
       '80': '80px',
+      'full' : 'max-content',
     },
     minHeight : {
       '40' : '40px'
