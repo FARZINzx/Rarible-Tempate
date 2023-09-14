@@ -500,11 +500,17 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-1 {
+  bottom: 0.25rem;
+}
 .bottom-1\/2 {
   bottom: 50%;
 }
 .left-0 {
   left: 0px;
+}
+.left-1 {
+  left: 0.25rem;
 }
 .left-6 {
   left: 1.5rem;
@@ -541,12 +547,6 @@ video {
 }
 .top-\[70px\] {
   top: 70px;
-}
-.bottom-1 {
-  bottom: 0.25rem;
-}
-.left-1 {
-  left: 0.25rem;
 }
 .z-20 {
   z-index: 20;
@@ -686,14 +686,14 @@ video {
 .w-\[118px\] {
   width: 118px;
 }
+.w-auto {
+  width: auto;
+}
 .w-dropdown {
   width: 40rem;
 }
 .w-full {
   width: 100%;
-}
-.w-auto {
-  width: auto;
 }
 .min-w-100 {
   min-width: 100px;
@@ -778,6 +778,12 @@ video {
 .gap-7 {
   gap: 1.75rem;
 }
+.gap-10 {
+  gap: 2.5rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -833,6 +839,9 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
+.bg-NFT-market {
+  background-color: rgba(25, 28, 31, 0.6);
+}
 .bg-a-back {
   background-color: rgba(255,255,255,0.04);
 }
@@ -884,9 +893,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-NFT-market {
-  background-color: rgba(25, 28, 31, 0.6);
 }
 .object-contain {
   -o-object-fit: contain;
@@ -980,9 +986,6 @@ video {
 .pt-1 {
   padding-top: 0.25rem;
 }
-.pl-2 {
-  padding-left: 0.5rem;
-}
 .text-left {
   text-align: left;
 }
@@ -999,6 +1002,9 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-\[11px\] {
+  font-size: 11px;
 }
 .text-\[13px\] {
   font-size: 13px;
@@ -1018,9 +1024,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-\[11px\] {
-  font-size: 11px;
 }
 .font-bold {
   font-weight: 700;
@@ -1231,6 +1234,38 @@ video {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-1 {
+    width: 0.25rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[4\] {
+    width: 4;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .md\:w-\[48\%\] {
+    width: 48%;
   }
 
   .md\:flex-row {

@@ -20,3 +20,7 @@
 .chart-input {
      min-width: 80px;
 }
+
+.no-scrollbar::-webkit-scrollbar{
+   display: none;
+}
