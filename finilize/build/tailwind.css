@@ -620,6 +620,9 @@ video {
 .flex {
   display: flex;
 }
+.table {
+  display: table;
+}
 .hidden {
   display: none;
 }
@@ -652,6 +655,9 @@ video {
 }
 .min-h-40 {
   min-height: 40px;
+}
+.min-h-\[568px\] {
+  min-height: 568px;
 }
 .w-0 {
   width: 0px;
@@ -707,6 +713,9 @@ video {
 }
 .min-w-118 {
   min-width: 118px;
+}
+.min-w-\[90\%\] {
+  min-width: 90%;
 }
 .max-w-5xl {
   max-width: 64rem;
@@ -822,6 +831,9 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
+}
+.rounded-\[22px\] {
+  border-radius: 22px;
 }
 .border-2 {
   border-width: 2px;
