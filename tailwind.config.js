@@ -48,6 +48,7 @@ module.exports = {
         'chart-eth-bg' : 'rgba(255,255,255,0.08)',
         'plus-bg' : "rgba(255,255,255,.3)",
         'NFT-market' : 'rgba(25, 28, 31, 0.6)',
+        'section-banner-news':'rgba(122,122,0,0.08)',
 
       },
     },
