@@ -548,9 +548,6 @@ video {
 .top-\[70px\] {
   top: 70px;
 }
-.-bottom-1 {
-  bottom: -0.25rem;
-}
 .z-20 {
   z-index: 20;
 }
@@ -665,12 +662,6 @@ video {
 .h-\[118px\] {
   height: 118px;
 }
-.h-\[\] {
-  height: ;
-}
-.h-\[1px\] {
-  height: 1px;
-}
 .h-\[2px\] {
   height: 2px;
 }
@@ -719,9 +710,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-.w-4 {
-  width: 1rem;
 }
 .min-w-118 {
   min-width: 118px;
@@ -847,9 +835,6 @@ video {
 .rounded-xl {
   border-radius: 0.75rem;
 }
-.rounded {
-  border-radius: 0.25rem;
-}
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -882,6 +867,9 @@ video {
 }
 .border-b-border-color {
   border-bottom-color: rgba(255,255,255,0.08);
+}
+.border-b-border-color2 {
+  border-bottom-color: rgba(255,255,255,0.1);
 }
 .bg-NFT-market {
   background-color: rgba(25, 28, 31, 0.6);
@@ -983,6 +971,10 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -1007,12 +999,11 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
 }
 .pb-5 {
   padding-bottom: 1.25rem;

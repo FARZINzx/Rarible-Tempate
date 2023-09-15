@@ -29,6 +29,7 @@ module.exports = {
         "span-color": "rgba(255,255,255,0.85)",
         "span-color2": "rgba(255,255,255,0.6)", 
         'border-color' : 'rgba(255,255,255,0.08)',
+        'border-color2' : 'rgba(255,255,255,0.1)',
         'span-green' : 'rgb(40,184,51)',
         'span-red' : 'rgb(233,73,73)',
       },
