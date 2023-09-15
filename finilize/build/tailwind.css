@@ -605,6 +605,9 @@ video {
 .mr-7 {
   margin-right: 1.75rem;
 }
+.mr-\[19px\] {
+  margin-right: 19px;
+}
 .mt-20 {
   margin-top: 5rem;
 }
@@ -613,15 +616,6 @@ video {
 }
 .mt-9 {
   margin-top: 2.25rem;
-}
-.mr-\[\] {
-  margin-right: ;
-}
-.mr-\[19\] {
-  margin-right: 19;
-}
-.mr-\[19px\] {
-  margin-right: 19px;
 }
 .block {
   display: block;
@@ -643,6 +637,9 @@ video {
 }
 .h-12 {
   height: 3rem;
+}
+.h-14 {
+  height: 3.5rem;
 }
 .h-2 {
   height: 0.5rem;
@@ -713,12 +710,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-.w-\[52\] {
-  width: 52;
-}
-.w-\[52\%\] {
-  width: 52%;
 }
 .min-w-100 {
   min-width: 100px;
@@ -811,12 +802,6 @@ video {
 }
 .gap-7 {
   gap: 1.75rem;
-}
-.gap-10 {
-  gap: 2.5rem;
-}
-.gap-\[4\.3rem\] {
-  gap: 4.3rem;
 }
 .gap-\[4rem\] {
   gap: 4rem;
@@ -1069,6 +1054,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1131,6 +1120,12 @@ video {
 }
 .duration-300 {
   transition-duration: 300ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+.duration-100 {
+  transition-duration: 100ms;
 }
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
@@ -1275,6 +1270,10 @@ video {
   }
 }
 @media (min-width: 768px) {
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
 
   .md\:block {
     display: block;
