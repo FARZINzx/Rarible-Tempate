@@ -24,3 +24,12 @@
 .no-scrollbar::-webkit-scrollbar{
    display: none;
 }
+
+.falsh1{
+     transform: rotate(-90deg);
+     transition-duration: .2s;
+}
+
+.falsh:hover .falsh1{
+   transform:  translateX(10px) rotate(-90deg);
+}
