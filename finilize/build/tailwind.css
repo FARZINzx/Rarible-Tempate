@@ -726,6 +726,9 @@ video {
   width: -moz-max-content;
   width: max-content;
 }
+.w-36 {
+  width: 9rem;
+}
 .min-w-118 {
   min-width: 118px;
 }
