@@ -38,6 +38,3 @@
    transform:  translateX(10px) rotate(-90deg);
 }
 
-.overally{
-     -webkit-mask-image: -o-repeating-linear-gradient(linear-gradient(to left, transparent, black 40px, black calc(100% - 40px), transparent););
-}
