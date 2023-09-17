@@ -575,17 +575,29 @@ video {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-28 {
+  margin-bottom: 7rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
+}
+.mb-\[2px\] {
+  margin-bottom: 2px;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -626,9 +638,6 @@ video {
 .mt-9 {
   margin-top: 2.25rem;
 }
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
 .block {
   display: block;
 }
@@ -665,6 +674,9 @@ video {
 .h-5 {
   height: 1.25rem;
 }
+.h-52 {
+  height: 13rem;
+}
 .h-7 {
   height: 1.75rem;
 }
@@ -676,9 +688,6 @@ video {
 }
 .h-\[2px\] {
   height: 2px;
-}
-.h-52 {
-  height: 13rem;
 }
 .w-0 {
   width: 0px;
@@ -703,6 +712,9 @@ video {
 }
 .w-5 {
   width: 1.25rem;
+}
+.w-52 {
+  width: 13rem;
 }
 .w-64 {
   width: 16rem;
@@ -731,9 +743,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-.w-52 {
-  width: 13rem;
 }
 .min-w-118 {
   min-width: 118px;
@@ -895,6 +904,9 @@ video {
 .border-b-border-color2 {
   border-bottom-color: rgba(255,255,255,0.1);
 }
+.border-r-border-color {
+  border-right-color: rgba(255,255,255,0.08);
+}
 .bg-NFT-market {
   background-color: rgba(25, 28, 31, 0.6);
 }
@@ -943,6 +955,10 @@ video {
 .bg-section-wrapper-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(40 44 75 / var(--tw-bg-opacity));
+}
+.bg-section-wrraper-card {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 135 205 / var(--tw-bg-opacity));
 }
 .bg-swiper-icon-bg {
   --tw-bg-opacity: 1;
@@ -1031,6 +1047,9 @@ video {
 .pb-1 {
   padding-bottom: 0.25rem;
 }
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1106,6 +1125,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-bold {
   font-weight: 700;
