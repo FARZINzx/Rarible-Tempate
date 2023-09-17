@@ -527,6 +527,9 @@ video {
 .right-1 {
   right: 0.25rem;
 }
+.right-5 {
+  right: 1.25rem;
+}
 .right-6 {
   right: 1.5rem;
 }
@@ -542,6 +545,9 @@ video {
 .top-1\/2 {
   top: 50%;
 }
+.top-4 {
+  top: 1rem;
+}
 .top-\[100px\] {
   top: 100px;
 }
@@ -550,15 +556,6 @@ video {
 }
 .top-\[70px\] {
   top: 70px;
-}
-.right-4 {
-  right: 1rem;
-}
-.right-5 {
-  right: 1.25rem;
-}
-.top-4 {
-  top: 1rem;
 }
 .z-20 {
   z-index: 20;
@@ -570,6 +567,10 @@ video {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -577,6 +578,10 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -593,6 +598,9 @@ video {
 .mb-28 {
   margin-bottom: 7rem;
 }
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -607,6 +615,9 @@ video {
 }
 .mb-\[2px\] {
   margin-bottom: 2px;
+}
+.ml-2 {
+  margin-left: 0.5rem;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -632,6 +643,9 @@ video {
 .mr-\[19px\] {
   margin-right: 19px;
 }
+.mr-\[1px\] {
+  margin-right: 1px;
+}
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -649,9 +663,6 @@ video {
 }
 .mt-9 {
   margin-top: 2.25rem;
-}
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 .block {
   display: block;
@@ -707,9 +718,6 @@ video {
 .h-full {
   height: 100%;
 }
-.min-h-\[\] {
-  min-height: ;
-}
 .min-h-\[54px\] {
   min-height: 54px;
 }
@@ -760,6 +768,10 @@ video {
 }
 .w-dropdown {
   width: 40rem;
+}
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .w-full {
   width: 100%;
@@ -892,9 +904,6 @@ video {
 .rounded-xl {
   border-radius: 0.75rem;
 }
-.rounded {
-  border-radius: 0.25rem;
-}
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -1000,9 +1009,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-inherit {
-  background-color: inherit;
 }
 .object-contain {
   -o-object-fit: contain;
@@ -1226,9 +1232,6 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-.outline {
-  outline-style: solid;
-}
 .backdrop-blur-lg {
   --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -1264,12 +1267,6 @@ video {
 .placeholder\:text-sm::placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.placeholder\:text-border-color::-moz-placeholder {
-  color: rgba(255,255,255,0.08);
-}
-.placeholder\:text-border-color::placeholder {
-  color: rgba(255,255,255,0.08);
 }
 .placeholder\:text-span-color2::-moz-placeholder {
   color: rgba(255,255,255,0.6);
@@ -1387,29 +1384,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(48 54 59 / var(--tw-bg-opacity));
 }
-.hover\:bg-black:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.hover\:outline-1:hover {
-  outline-width: 1px;
-}
 .hover\:outline-2:hover {
   outline-width: 2px;
-}
-.focus\:bg-a-back-hover:focus {
-  background-color: rgba(255,255,255,0.1);
-}
-.focus\:bg-black:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.focus\:outline-1:focus {
-  outline-width: 1px;
 }
 @media (max-width: 425px) {
 
@@ -1437,6 +1417,18 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+
+  .sm\:justify-evenly {
+    justify-content: space-evenly;
   }
 
   .sm\:text-2xl {
@@ -1537,8 +1529,44 @@ video {
     width: 310;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-1\/4 {
+    width: 25%;
+  }
+
+  .lg\:w-3 {
+    width: 0.75rem;
+  }
+
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:justify-between {
     justify-content: space-between;
+  }
+
+  .lg\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
   }
 }
 @media (min-width: 1280px) {
