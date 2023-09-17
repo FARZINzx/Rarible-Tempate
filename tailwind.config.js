@@ -23,6 +23,7 @@ module.exports = {
       colors: {
         "header-background": "rgba(25,28,31,.85)",
         "popUp-menu": "rgba(25,28,31,.85)",
+        "btn-color-text": "rgba(25,28,31)",
         "logo-background": "#feda03",
         "header-nav-link": "#ffffff99",
         "icon-color": "#575A5B",
@@ -50,6 +51,7 @@ module.exports = {
         'plus-bg' : "rgba(255,255,255,.3)",
         'NFT-market' : 'rgba(25, 28, 31, 0.6)',
         'section-banner-news':'#2B241D',
+        'section-wrapper-bg' : 'rgb(40,44,75)',
 
       },
     },

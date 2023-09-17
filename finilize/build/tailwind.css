@@ -611,6 +611,9 @@ video {
 .mr-\[19px\] {
   margin-right: 19px;
 }
+.mt-12 {
+  margin-top: 3rem;
+}
 .mt-20 {
   margin-top: 5rem;
 }
@@ -847,6 +850,9 @@ video {
 .rounded-xl {
   border-radius: 0.75rem;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -927,6 +933,10 @@ video {
 .bg-section-banner-news {
   --tw-bg-opacity: 1;
   background-color: rgb(43 36 29 / var(--tw-bg-opacity));
+}
+.bg-section-wrapper-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 44 75 / var(--tw-bg-opacity));
 }
 .bg-swiper-icon-bg {
   --tw-bg-opacity: 1;
@@ -1135,6 +1145,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-btn-color-text {
+  --tw-text-opacity: 1;
+  color: rgba(25, 28, 31, var(--tw-text-opacity));
+}
 .no-underline {
   text-decoration-line: none;
 }
@@ -1178,6 +1192,10 @@ video {
   content: var(--tw-content);
   position: absolute;
 }
+.before\:-bottom-1::before {
+  content: var(--tw-content);
+  bottom: -0.25rem;
+}
 .before\:-top-1::before {
   content: var(--tw-content);
   top: -0.25rem;
@@ -1206,6 +1224,10 @@ video {
   content: var(--tw-content);
   height: 1rem;
 }
+.before\:h-\[1px\]::before {
+  content: var(--tw-content);
+  height: 1px;
+}
 .before\:w-1::before {
   content: var(--tw-content);
   width: 0.25rem;
@@ -1213,6 +1235,10 @@ video {
 .before\:w-4::before {
   content: var(--tw-content);
   width: 1rem;
+}
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
 }
 @keyframes ping {
 
@@ -1238,6 +1264,10 @@ video {
   content: var(--tw-content);
   border-radius: 9999px;
 }
+.before\:bg-border-color::before {
+  content: var(--tw-content);
+  background-color: rgba(255,255,255,0.08);
+}
 .before\:bg-onAir-before-bg::before {
   content: var(--tw-content);
   background-color: rgba(255,255,255,.2);
@@ -1247,13 +1277,13 @@ video {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
 .before\:content-\[\'\.\'\]::before {
   --tw-content: '.';
   content: var(--tw-content);
-}
-.hover\:translate-x-2:hover {
-  --tw-translate-x: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .hover\:border-2:hover {
   border-width: 2px;
