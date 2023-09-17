@@ -674,9 +674,6 @@ video {
 .h-5 {
   height: 1.25rem;
 }
-.h-52 {
-  height: 13rem;
-}
 .h-7 {
   height: 1.75rem;
 }
@@ -685,6 +682,9 @@ video {
 }
 .h-\[118px\] {
   height: 118px;
+}
+.h-\[208px\] {
+  height: 208px;
 }
 .h-\[2px\] {
   height: 2px;
@@ -713,9 +713,6 @@ video {
 .w-5 {
   width: 1.25rem;
 }
-.w-52 {
-  width: 13rem;
-}
 .w-64 {
   width: 16rem;
 }
@@ -730,6 +727,9 @@ video {
 }
 .w-\[118px\] {
   width: 118px;
+}
+.w-\[208px\] {
+  width: 208px;
 }
 .w-auto {
   width: auto;
@@ -1347,6 +1347,14 @@ video {
 }
 @media (min-width: 640px) {
 
+  .sm\:h-\[230px\] {
+    height: 230px;
+  }
+
+  .sm\:w-\[230px\] {
+    width: 230px;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1357,6 +1365,10 @@ video {
   }
 }
 @media (min-width: 768px) {
+
+  .md\:mr-8 {
+    margin-right: 2rem;
+  }
 
   .md\:mt-4 {
     margin-top: 1rem;
@@ -1370,8 +1382,28 @@ video {
     display: flex;
   }
 
+  .md\:h-\[280\] {
+    height: 280;
+  }
+
+  .md\:w-\[280\] {
+    width: 280;
+  }
+
   .md\:w-\[48\%\] {
     width: 48%;
+  }
+
+  .md\:w-1 {
+    width: 0.25rem;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-3\/4 {
+    width: 75%;
   }
 
   .md\:flex-1 {
@@ -1386,8 +1418,29 @@ video {
     align-items: flex-start;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 @media (min-width: 1024px) {
@@ -1408,8 +1461,16 @@ video {
     display: none;
   }
 
+  .lg\:h-\[310\] {
+    height: 310;
+  }
+
   .lg\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .lg\:w-\[310\] {
+    width: 310;
   }
 
   .lg\:justify-between {
@@ -1420,6 +1481,14 @@ video {
 
   .xl\:block {
     display: block;
+  }
+
+  .xl\:h-\[350\] {
+    height: 350;
+  }
+
+  .xl\:w-\[350\] {
+    width: 350;
   }
 
   .xl\:flex-row-reverse {
