@@ -52,6 +52,7 @@ module.exports = {
         'NFT-market' : 'rgba(25, 28, 31, 0.6)',
         'section-banner-news':'#2B241D',
         'section-wrapper-bg' : 'rgb(40,44,75)',
+        'section-wrraper-card' : 'rgb(26, 135, 205)',
 
       },
     },
