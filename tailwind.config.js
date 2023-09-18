@@ -55,8 +55,7 @@ module.exports = {
         'section-wrraper-card' : 'rgb(26, 135, 205)',
         "section-wrapper-overally" : 'linear-gradient(to left, transparent, black 40px, black calc(100% - 40px), transparent);',
         'social-media-bg' : 'rgba(25,28,31,0.2)',
-
-
+        'bg-span-yellow' : 'rgb(254, 218, 3)',
       },
     },
   },
