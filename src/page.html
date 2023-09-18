@@ -256,9 +256,9 @@
       <section class="item-prototype">
         <div class="flex flex-col">
           <!--PROTOTYPE-->
-          <div class="flex flex-wrap flex-row w-full">
+          <div class="flex flex-wrap flex-row w-full lg:justify-between">
             <!--Text-->
-            <div class="flex flex-col">
+            <div class="flex flex-col mb-6 max-w-2xl lg:w-2/3">
               <div class="flex items-center mb-2">
                 <h1 class="mr-2 text-white sm:text-3xl text-2xl truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
                 <svg display="block" width="24" height="24" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
@@ -276,15 +276,68 @@
               <div class="text-span-color2 text-sm font-medium">
                <div class="less-text">
                 <span>The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to...</span>
-                <button class="less-btn bg-none text-white">Show more</button>
+                <button class="less-btn bg-none text-white underline">Show more</button>
                </div>
                <div class="more-text hidden">
                 <span>The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs— unique digital collectibles living on the Ethereum blockchain. Your Bored Ape doubles as your Yacht Club membership card, and grants access to members-only benefits, the first of which is access to THE BATHROOM, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.</span>
-                <button class="more-btn bg-none text-white">Show less</button>
+                <button class="more-btn bg-none text-white underline">Show less</button>
                </div>
               </div>
             </div>
             <!--Table-->
+            <div class="p-6 border-2 border-border-color rounded-3xl text-sm h-fit flex w-full flex-col max-w-2xl lg:max-w-xs lg:w-1/3">
+              <!--Table top-->
+              <div class="flex flex-col pb-2 border-b-2 border-b-border-color ">
+                <!--flex row 1-->
+                <div class="flex justify-between mb-2 items-center">
+                  <div> <span class="text-span-color2">Floor</span></div>
+                  <div class="text-white">
+                  <span class="mr-[1px]">29.239</span>
+                  <span>ETH</span>
+                  </div>
+                </div>
+                <!--flex row 2-->
+                <div class="flex justify-between mb-2 items-center">
+                  <div> <span class="text-span-color2">Volume</span></div>
+                  <div class="text-white">
+                  <span class="mr-[1px]">1.5M</span>
+                  <span>ETH</span>
+                  </div>
+                </div>
+                <!--flex row 3-->
+                <div class="flex justify-between mb-2 items-center">
+                  <div> <span class="text-span-color2">Items</span></div>
+                  <div class="text-white">
+                  <span>10k</span>
+                  </div>
+                </div>
+                <!--flex row 4-->
+                <div class="flex justify-between mb-2 items-center">
+                  <div> <span class="text-span-color2">Owners</span></div>
+                  <div class="text-white">
+                  <span>5.8k</span>
+                  </div>
+                </div>
+              </div>
+              <!--Table bottom-->
+              <div class="flex flex-col pt-3 ">
+                <!--flex row 1-->
+                <div class="flex justify-between mb-2 items-center">
+                  <div> <span class="text-span-color2">Blockchain</span></div>
+                  <div class="text-white">
+                  <span>Ethereum</span>
+                  </div>
+                </div>
+                <!--flex row 2-->
+                <div class="flex justify-between mb-2 items-center">
+                  <div> <span class="text-span-color2">Address</span></div>
+                  <div class="text-white flex">
+                  <span class="mr-[1px] font-bold">0xbc4...f13d</span>
+                  <svg viewBox="0 0 25 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="text-span-color2 hover:text-white duration-150 cursor-pointer"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.9834 5.25C7.91233 5.25 6.2334 6.92893 6.2334 9V12C6.2334 13.8363 7.55334 15.3644 9.29622 15.6872C9.61899 17.4301 11.1471 18.75 12.9834 18.75H15.9834C18.0545 18.75 19.7334 17.0711 19.7334 15V12C19.7334 10.1637 18.4135 8.63559 16.6706 8.31282C16.3478 6.56994 14.8197 5.25 12.9834 5.25H9.9834ZM15.1054 8.25C14.7965 7.37611 13.9631 6.75 12.9834 6.75H9.9834C8.74076 6.75 7.7334 7.75736 7.7334 9V12C7.7334 12.9797 8.3595 13.8131 9.2334 14.122V12C9.2334 9.92893 10.9123 8.25 12.9834 8.25H15.1054ZM10.7334 12C10.7334 10.7574 11.7408 9.75 12.9834 9.75H15.9834C17.226 9.75 18.2334 10.7574 18.2334 12V15C18.2334 16.2426 17.226 17.25 15.9834 17.25H12.9834C11.7408 17.25 10.7334 16.2426 10.7334 15V12Z" fill="currentColor"></path></svg>
+                  </div>
+                </div>
+                </div>
+            </div>
           </div>
           <!--Button-->
           <div></div>

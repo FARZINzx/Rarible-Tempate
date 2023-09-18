@@ -38,12 +38,4 @@
    transform:  translateX(10px) rotate(-90deg);
 }
 
-.less-btn:focus .less-text{
-  display: none;
-}
-
-.less-btn:focus .more-text{
-     display: block;
-}
-
 
