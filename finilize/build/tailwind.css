@@ -494,6 +494,9 @@ video {
 .relative {
   position: relative;
 }
+.-bottom-7 {
+  bottom: -1.75rem;
+}
 .-left-2 {
   left: -0.5rem;
 }
@@ -557,11 +560,17 @@ video {
 .top-\[70px\] {
   top: 70px;
 }
+.z-0 {
+  z-index: 0;
+}
 .z-20 {
   z-index: 20;
 }
 .z-50 {
   z-index: 50;
+}
+.z-10 {
+  z-index: 10;
 }
 .mx-2 {
   margin-left: 0.5rem;
@@ -694,8 +703,14 @@ video {
 .h-20 {
   height: 5rem;
 }
+.h-32 {
+  height: 8rem;
+}
 .h-4 {
   height: 1rem;
+}
+.h-44 {
+  height: 11rem;
 }
 .h-5 {
   height: 1.25rem;
@@ -718,6 +733,12 @@ video {
 .h-full {
   height: 100%;
 }
+.h-48 {
+  height: 12rem;
+}
+.h-24 {
+  height: 6rem;
+}
 .min-h-\[54px\] {
   min-height: 54px;
 }
@@ -738,6 +759,9 @@ video {
 }
 .w-20 {
   width: 5rem;
+}
+.w-32 {
+  width: 8rem;
 }
 .w-36 {
   width: 9rem;
@@ -779,6 +803,9 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+.w-24 {
+  width: 6rem;
 }
 .min-w-118 {
   min-width: 118px;
@@ -872,6 +899,9 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.overflow-visible {
+  overflow: visible;
+}
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -920,6 +950,9 @@ video {
 .border-r-2 {
   border-right-width: 2px;
 }
+.border-t-\[1px\] {
+  border-top-width: 1px;
+}
 .border-solid {
   border-style: solid;
 }
@@ -945,6 +978,9 @@ video {
 }
 .border-r-border-color {
   border-right-color: rgba(255,255,255,0.08);
+}
+.border-t-border-color {
+  border-top-color: rgba(255,255,255,0.08);
 }
 .bg-NFT-market {
   background-color: rgba(25, 28, 31, 0.6);
@@ -1013,6 +1049,10 @@ video {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-0 {
   padding: 0px;
@@ -1123,6 +1163,9 @@ video {
 }
 .pt-1 {
   padding-top: 0.25rem;
+}
+.pt-20 {
+  padding-top: 5rem;
 }
 .pt-4 {
   padding-top: 1rem;
@@ -1371,20 +1414,8 @@ video {
   --tw-content: '.';
   content: var(--tw-content);
 }
-.hover\:translate-y-3:hover {
-  --tw-translate-y: 0.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.hover\:-translate-y-3:hover {
-  --tw-translate-y: -0.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 .hover\:-translate-y-1:hover {
   --tw-translate-y: -0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.hover\:-translate-y-2:hover {
-  --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .hover\:border-2:hover {
@@ -1427,8 +1458,24 @@ video {
     height: 230px;
   }
 
+  .sm\:h-32 {
+    height: 8rem;
+  }
+
+  .sm\:h-28 {
+    height: 7rem;
+  }
+
   .sm\:w-\[230px\] {
     width: 230px;
+  }
+
+  .sm\:w-32 {
+    width: 8rem;
+  }
+
+  .sm\:w-28 {
+    width: 7rem;
   }
 
   .sm\:flex-row {
@@ -1437,6 +1484,11 @@ video {
 
   .sm\:justify-evenly {
     justify-content: space-evenly;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .sm\:text-2xl {
@@ -1462,8 +1514,20 @@ video {
     display: flex;
   }
 
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:h-\[280\] {
     height: 280;
+  }
+
+  .md\:h-8 {
+    height: 2rem;
+  }
+
+  .md\:h-32 {
+    height: 8rem;
   }
 
   .md\:w-\[280\] {
@@ -1472,6 +1536,10 @@ video {
 
   .md\:w-\[48\%\] {
     width: 48%;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
   }
 
   .md\:max-w-xl {
@@ -1496,6 +1564,11 @@ video {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .md\:text-left {
@@ -1552,6 +1625,11 @@ video {
   .lg\:justify-between {
     justify-content: space-between;
   }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 @media (min-width: 1280px) {
 
@@ -1578,6 +1656,11 @@ video {
   .xl\:px-44 {
     padding-left: 11rem;
     padding-right: 11rem;
+  }
+
+  .xl\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
   }
 
   .xl\:py-12 {
