@@ -254,9 +254,9 @@
         </div>
       </section>
       <section class="item-prototype">
-        <div class="flex flex-col">
+        <div class="flex flex-col lg:relative">
           <!--PROTOTYPE-->
-          <div class="flex flex-wrap flex-row w-full lg:justify-between">
+          <div class="flex flex-wrap flex-row w-full lg:justify-between mb-4 ">
             <!--Text-->
             <div class="flex flex-col mb-6 max-w-2xl lg:w-2/3">
               <div class="flex items-center mb-2">
@@ -340,7 +340,15 @@
             </div>
           </div>
           <!--Button-->
-          <div></div>
+          <div class="flex items-center justify-start mt-4 gap-3 max-w-2xl lg:absolute lg:top-36">
+            <button class="bg-white text-btn-color-text flex items-center justify-center h-12 text-sm font-bold py-2 px-4 rounded-2xl w-3/4 lg:w-max">Place floor bid</button>
+            <button class="flex items-center justify-center h-12 text-sm text-white bg-a-back hover:bg-a-back-hover duration-100 py-1 px-3 rounded-2xl">
+              <svg viewBox="0 0 25 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa dlArsp"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.5303 7.53032C10.2374 7.82321 9.76256 7.82321 9.46967 7.53032C9.17678 7.23743 9.17678 6.76255 9.46967 6.46966L12.4697 3.46966L13 2.93933L13.5303 3.46966L16.5303 6.46966C16.8232 6.76255 16.8232 7.23743 16.5303 7.53032C16.2374 7.82321 15.7626 7.82321 15.4697 7.53032L13.75 5.81065V15C13.75 15.4142 13.4142 15.75 13 15.75C12.5858 15.75 12.25 15.4142 12.25 15V5.81065L10.5303 7.53032ZM9.625 11.75C8.58947 11.75 7.75 12.5895 7.75 13.625V16C7.75 17.2426 8.75736 18.25 10 18.25H16C17.2426 18.25 18.25 17.2426 18.25 16V13.625C18.25 12.5895 17.4105 11.75 16.375 11.75C15.9608 11.75 15.625 11.4142 15.625 11C15.625 10.5858 15.9608 10.25 16.375 10.25C18.239 10.25 19.75 11.761 19.75 13.625V16C19.75 18.0711 18.0711 19.75 16 19.75H10C7.92893 19.75 6.25 18.0711 6.25 16V13.625C6.25 11.761 7.76104 10.25 9.625 10.25C10.0392 10.25 10.375 10.5858 10.375 11C10.375 11.4142 10.0392 11.75 9.625 11.75Z" fill="currentColor"></path></svg>
+            </button>
+            <button class="flex items-center justify-center h-12 text-sm text-white bg-a-back hover:bg-a-back-hover duration-100 rounded-2xl py-1 px-3">
+              <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa dlArsp"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 12C8.5 12.8284 7.82843 13.5 7 13.5C6.17157 13.5 5.5 12.8284 5.5 12C5.5 11.1716 6.17157 10.5 7 10.5C7.82843 10.5 8.5 11.1716 8.5 12ZM13.5 12C13.5 12.8284 12.8284 13.5 12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12ZM16.999 13.5C17.8274 13.5 18.499 12.8284 18.499 12C18.499 11.1716 17.8274 10.5 16.999 10.5C16.1706 10.5 15.499 11.1716 15.499 12C15.499 12.8284 16.1706 13.5 16.999 13.5Z" fill="currentColor"></path></svg>
+            </button>
+          </div>
         </div>
       </section>
     </main>
