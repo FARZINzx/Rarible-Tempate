@@ -351,11 +351,40 @@
           </div>
         </div>
       </section>
-      <section class="section-filter">
+      <section class="section-filter flex flex-col">
         <!--section-nav-->
-        <div class="flex items-center w-full border-b-2 border-b-border-color font-semibold pb-4">
+        <div class="flex items-center w-full border-b-2 border-b-border-color font-semibold py-4 my-2">
           <div class="mr-4 pl-2 text-white relative before:content-[''] before:w-full before:absolute before:bg-white before:h-1 before:-bottom-4 before:left-1 before:rounded-t-md cursor-pointer ">Items</div>
           <div class="pl-2 text-span-color2 hover:text-white duration-100 cursor-pointer">Activity</div>
+        </div>
+        <!--section filter-->
+        <div class="flex w-full gap-4 mt-4">
+          <div class="hidden"></div>
+          <div class="hidden"></div>
+          <div class="hidden"></div>
+          <div class="flex bg-a-back items-center  relative rounded-xl min-h-40 py-2 px-3 text-sm flex-1">
+            <input type="text" class="bg-transparent ml-10 w-full outline-none placeholder:text-span-color2 " placeholder="Search by NFTs"/>
+            <div class="absolute">
+              <svg viewBox="0 0 25 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="text-span-color2"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.74658 11.125C7.74658 8.70875 9.70534 6.75 12.1216 6.75C14.5378 6.75 16.4966 8.70875 16.4966 11.125C16.4966 13.5412 14.5378 15.5 12.1216 15.5C9.70534 15.5 7.74658 13.5412 7.74658 11.125ZM12.1216 5C8.73884 5 5.99658 7.74226 5.99658 11.125C5.99658 14.5077 8.73884 17.25 12.1216 17.25C13.5005 17.25 14.773 16.7943 15.7967 16.0253C15.8212 16.0579 15.8482 16.0891 15.8779 16.1187L18.5029 18.7437C18.8446 19.0854 19.3986 19.0854 19.7403 18.7437C20.082 18.402 20.082 17.848 19.7403 17.5063L17.1153 14.8813C17.0857 14.8516 17.0545 14.8246 17.0219 14.8001C17.7909 13.7764 18.2466 12.5039 18.2466 11.125C18.2466 7.74226 15.5043 5 12.1216 5Z" fill="currentColor"></path></svg>
+            </div>
+          </div>
+          <div class="flex items-center justify-center text-white text-sm bg-a-back hover:bg-a-back-hover rounded-xl min-h-40 py-2 px-3">
+            <div class="mr-2">
+              <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa diZvQV sc-cCYyox bKLviX sc-cCYyox bKLviX"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 7.5C13.3096 7.5 12.75 8.05964 12.75 8.75C12.75 9.44036 13.3096 10 14 10C14.6904 10 15.25 9.44036 15.25 8.75C15.25 8.05964 14.6904 7.5 14 7.5ZM11.3535 8C11.68 6.84575 12.7412 6 14 6C15.2588 6 16.32 6.84575 16.6465 8H18C18.4142 8 18.75 8.33579 18.75 8.75C18.75 9.16421 18.4142 9.5 18 9.5H16.6465C16.32 10.6543 15.2588 11.5 14 11.5C12.7412 11.5 11.68 10.6543 11.3535 9.5H6C5.58579 9.5 5.25 9.16421 5.25 8.75C5.25 8.33579 5.58579 8 6 8H11.3535ZM10 14C9.30964 14 8.75 14.5596 8.75 15.25C8.75 15.9404 9.30964 16.5 10 16.5C10.6904 16.5 11.25 15.9404 11.25 15.25C11.25 14.5596 10.6904 14 10 14ZM7.35352 14.5C7.67998 13.3457 8.74122 12.5 10 12.5C11.2588 12.5 12.32 13.3457 12.6465 14.5H18C18.4142 14.5 18.75 14.8358 18.75 15.25C18.75 15.6642 18.4142 16 18 16H12.6465C12.32 17.1543 11.2588 18 10 18C8.74122 18 7.67998 17.1543 7.35352 16H6C5.58579 16 5.25 15.6642 5.25 15.25C5.25 14.8358 5.58579 14.5 6 14.5H7.35352Z" fill="currentColor"></path></svg>
+            </div>
+            <div class="font-semibold">Filters</div>
+          </div>
+          <div class="flex items-center justify-center text-white text-sm bg-a-back hover:bg-a-back-hover rounded-xl min-h-40 py-2 px-3 w-10">
+            <button>
+              <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa ioMJjd"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.4288 12.9093V12.2C17.4288 9.07564 14.896 6.54285 11.7717 6.54285C10.497 6.54285 9.32278 6.96351 8.37727 7.67389C8.03665 7.9298 7.55306 7.86114 7.29714 7.52051C7.04123 7.17989 7.1099 6.6963 7.45052 6.44039C8.65406 5.53614 10.1514 5 11.7717 5C15.7481 5 18.9716 8.22354 18.9716 12.2V12.9088L20.2259 11.6545C20.5272 11.3532 21.0156 11.3532 21.3169 11.6545C21.6181 11.9558 21.6181 12.4442 21.3169 12.7455L18.2 15.8624L15.0831 12.7455C14.7818 12.4442 14.7818 11.9558 15.0831 11.6545C15.3843 11.3532 15.8728 11.3532 16.174 11.6545L17.4288 12.9093ZM7.36879 12.7455L6.11427 11.491V12.2C6.11427 15.3244 8.64706 17.8572 11.7714 17.8572C13.0461 17.8572 14.2203 17.4365 15.1658 16.7261C15.5064 16.4702 15.99 16.5389 16.2459 16.8795C16.5018 17.2201 16.4332 17.7037 16.0925 17.9596C14.889 18.8639 13.3917 19.4 11.7714 19.4C7.79496 19.4 4.57142 16.1765 4.57142 12.2L4.57142 11.491L3.31691 12.7455C3.01565 13.0468 2.52721 13.0468 2.22595 12.7455C1.92468 12.4443 1.92468 11.9558 2.22595 11.6546L5.34285 8.53765L8.45975 11.6546C8.76101 11.9558 8.76101 12.4443 8.45975 12.7455C8.15849 13.0468 7.67005 13.0468 7.36879 12.7455Z" fill="currentColor"></path></svg>
+            </button>
+          </div>
+          <div class="flex items-center justify-center text-white text-sm bg-a-back hover:bg-a-back-hover rounded-xl min-h-40 py-2 px-3 w-10 sm:hidden">
+            <button>
+              <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa ioMJjd"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.25 8.5C18.25 8.08579 17.9142 7.75 17.5 7.75H6.5C6.08579 7.75 5.75 8.08579 5.75 8.5C5.75 8.91421 6.08579 9.25 6.5 9.25H17.5C17.9142 9.25 18.25 8.91421 18.25 8.5ZM16.25 12C16.25 11.5858 15.9142 11.25 15.5 11.25H8.5C8.08579 11.25 7.75 11.5858 7.75 12C7.75 12.4142 8.08579 12.75 8.5 12.75H15.5C15.9142 12.75 16.25 12.4142 16.25 12ZM13 14.75C13.4142 14.75 13.75 15.0858 13.75 15.5C13.75 15.9142 13.4142 16.25 13 16.25H11C10.5858 16.25 10.25 15.9142 10.25 15.5C10.25 15.0858 10.5858 14.75 11 14.75H13Z" fill="currentColor"></path></svg>
+          </div>
+          <div class=""></div>
+
         </div>
       </section>
     </main>
