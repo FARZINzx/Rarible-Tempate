@@ -512,6 +512,9 @@ video {
 .bottom-1\/2 {
   bottom: 50%;
 }
+.bottom-6 {
+  bottom: 1.5rem;
+}
 .left-0 {
   left: 0px;
 }
@@ -560,17 +563,23 @@ video {
 .top-\[70px\] {
   top: 70px;
 }
+.right-4 {
+  right: 1rem;
+}
+.right-3 {
+  right: 0.75rem;
+}
 .z-0 {
   z-index: 0;
+}
+.z-10 {
+  z-index: 10;
 }
 .z-20 {
   z-index: 20;
 }
 .z-50 {
   z-index: 50;
-}
-.z-10 {
-  z-index: 10;
 }
 .mx-2 {
   margin-left: 0.5rem;
@@ -703,8 +712,8 @@ video {
 .h-20 {
   height: 5rem;
 }
-.h-32 {
-  height: 8rem;
+.h-24 {
+  height: 6rem;
 }
 .h-4 {
   height: 1rem;
@@ -733,11 +742,8 @@ video {
 .h-full {
   height: 100%;
 }
-.h-48 {
-  height: 12rem;
-}
-.h-24 {
-  height: 6rem;
+.h-16 {
+  height: 4rem;
 }
 .min-h-\[54px\] {
   min-height: 54px;
@@ -760,8 +766,8 @@ video {
 .w-20 {
   width: 5rem;
 }
-.w-32 {
-  width: 8rem;
+.w-24 {
+  width: 6rem;
 }
 .w-36 {
   width: 9rem;
@@ -804,8 +810,11 @@ video {
   width: -moz-max-content;
   width: max-content;
 }
-.w-24 {
-  width: 6rem;
+.w-16 {
+  width: 4rem;
+}
+.w-4 {
+  width: 1rem;
 }
 .min-w-118 {
   min-width: 118px;
@@ -1045,6 +1054,9 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-social-media-bg {
+  background-color: rgba(25,28,31,0.2);
 }
 .object-contain {
   -o-object-fit: contain;
@@ -1454,28 +1466,24 @@ video {
 }
 @media (min-width: 640px) {
 
-  .sm\:h-\[230px\] {
-    height: 230px;
-  }
-
-  .sm\:h-32 {
-    height: 8rem;
+  .sm\:right-6 {
+    right: 1.5rem;
   }
 
   .sm\:h-28 {
     height: 7rem;
   }
 
-  .sm\:w-\[230px\] {
-    width: 230px;
-  }
-
-  .sm\:w-32 {
-    width: 8rem;
+  .sm\:h-\[230px\] {
+    height: 230px;
   }
 
   .sm\:w-28 {
     width: 7rem;
+  }
+
+  .sm\:w-\[230px\] {
+    width: 230px;
   }
 
   .sm\:flex-row {
@@ -1514,6 +1522,10 @@ video {
     display: flex;
   }
 
+  .md\:h-32 {
+    height: 8rem;
+  }
+
   .md\:h-80 {
     height: 20rem;
   }
@@ -1522,12 +1534,16 @@ video {
     height: 280;
   }
 
-  .md\:h-8 {
-    height: 2rem;
+  .md\:h-24 {
+    height: 6rem;
   }
 
-  .md\:h-32 {
-    height: 8rem;
+  .md\:h-6 {
+    height: 1.5rem;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
   }
 
   .md\:w-\[280\] {
@@ -1538,8 +1554,12 @@ video {
     width: 48%;
   }
 
-  .md\:w-32 {
-    width: 8rem;
+  .md\:w-24 {
+    width: 6rem;
+  }
+
+  .md\:w-6 {
+    width: 1.5rem;
   }
 
   .md\:max-w-xl {

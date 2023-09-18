@@ -203,11 +203,53 @@
       </div>
     </header>
     <main class="px-4 sm:px-6 md:px-7 lg:px-8 xl:px-9 mx-auto pt-20 z-0">
-      <section class="banner-avatar mb-6 h-44 md:h-80 w-full ">
-        <div class="h-full w-full relative overflow-visible rounded-2xl ">
-          <img src="./assets/Image/page-banner.jpg" class="h-full object-cover w-full z-0 rounded-lg"/>
-          <div class="avatar absolute  bg-div-chart-bg w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-2xl -bottom-7 left-6">
-            <img class="z-50" src="./assets/Image/page-avatar.avif"/>
+      <section class="banner-avatar mb-6 h-44 md:h-80 w-full">
+        <div class="h-full w-full relative overflow-visible rounded-2xl">
+          <img
+            src="./assets/Image/page-banner.jpg"
+            class="h-full object-cover w-full z-0 rounded-lg"
+          />
+          <!--Avatar-->
+          <div
+            class="avatar absolute bg-div-chart-bg w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-2xl -bottom-7 left-6"
+          >
+            <img class="z-50" src="./assets/Image/page-avatar.avif" />
+          </div>
+          <!--Social media-->
+          <div
+            class="absolute bottom-6 right-3 sm:right-6 z-10 bg-social-media-bg backdrop-blur-lg p-2 border-2 border-border-color rounded-xl w-fit"
+          >
+            <div class="flex items-center justify-center">
+              <a href="#" class="p-1" target="_blank">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  width="16"
+                  height="16"
+                  xlmns="http://www.w3.org/2000/svg"
+                  class=" text-white"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4.68131 11.1818H7.95007C8.13351 8.92103 8.89017 6.75089 10.1392 4.8735C7.22902 5.63125 5.01928 8.12447 4.68131 11.1818ZM12 5.08702C10.6339 6.84704 9.7981 8.96195 9.59257 11.1818H14.4074C14.2019 8.96195 13.3661 6.84704 12 5.08702ZM14.4074 12.8182C14.2019 15.038 13.3661 17.153 12 18.913C10.6339 17.153 9.7981 15.038 9.59257 12.8182H14.4074ZM7.95007 12.8182H4.68131C5.01928 15.8755 7.22902 18.3687 10.1392 19.1265C8.89017 17.2491 8.13351 15.079 7.95007 12.8182ZM13.8608 19.1265C15.1098 17.2491 15.8665 15.079 16.0499 12.8182H19.3187C18.9807 15.8755 16.771 18.3687 13.8608 19.1265ZM19.3187 11.1818H16.0499C15.8665 8.92103 15.1098 6.75089 13.8608 4.8735C16.771 5.63125 18.9807 8.12447 19.3187 11.1818ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-discord                  text-white fa-xs  p-3"
+                "></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-twitter                  text-white fa-xs p-3"
+                "></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-instagram                  text-white fa-xs  p-3"
+                "></i>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -215,21 +257,57 @@
     <footer class="section-footer px-6 mt-12">
       <div class="flex flex-col">
         <!--Footer bottom-->
-        <div class="flex flex-col border-t-[1px] border-t-border-color" >
-          <div class="flex flex-wrap flex-row justify-center items-center mt-4 gap-2 ">
+        <div class="flex flex-col border-t-[1px] border-t-border-color">
+          <div
+            class="flex flex-wrap flex-row justify-center items-center mt-4 gap-2"
+          >
             <div class="my-1 mx-4">
-              <a class="mb-3 text-span-color2 text-sm overflow-hideen">© Rarible, Inc.</a>
+              <a class="mb-3 text-span-color2 text-sm overflow-hideen"
+                >© Rarible, Inc.</a
+              >
             </div>
             <div class="my-1 mx-4">
-              <a class="mb-3 text-span-color2 text-sm overflow-hideen">Community guidelines</a>
+              <a class="mb-3 text-span-color2 text-sm overflow-hideen"
+                >Community guidelines</a
+              >
             </div>
             <div class="my-1 mx-4">
               <a class="mb-3 text-span-color2 text-sm overflow-hideen">Terms</a>
             </div>
-            <div class="bg-a-back flex items-center text-sm  justify-center text-span-color2 rounded-lg p-2 my-1 mx-4">
-              <svg viewBox="0 0 20 20" fill="none" width="16" height="16" xlmns="http://www.w3.org/2000/svg" class="mr-[1px]"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.79818 14.5704C4.22626 13.9632 5.10107 13.1498 5.92595 13.2733C6.18989 13.3128 6.46006 13.3333 6.73502 13.3333C9.72657 13.3333 12.1517 10.9082 12.1517 7.91667C12.1517 7.02393 11.9418 6.18162 11.5658 5.43915C11.1885 4.69402 11.6857 3.59427 12.4439 3.94449C14.7312 5.00091 16.3184 7.31511 16.3184 10C16.3184 13.6819 13.3336 16.6667 9.65169 16.6667C7.73872 16.6667 6.01393 15.8609 4.79818 14.5704Z" fill="currentColor"></path></svg>
-              <span class="font-bold text-sm mr-[1px] ">Dark</span>
-              <svg viewBox="0 0 24 24" fill="none" width="16" height="16" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa itEvDZ sc-cCYyox bKLviX sc-cCYyox bKLviX"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z" fill="currentColor"></path></svg>
+            <div
+              class="bg-a-back flex items-center text-sm justify-center text-span-color2 rounded-lg p-2 my-1 mx-4"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                fill="none"
+                width="16"
+                height="16"
+                xlmns="http://www.w3.org/2000/svg"
+                class="mr-[1px]"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.79818 14.5704C4.22626 13.9632 5.10107 13.1498 5.92595 13.2733C6.18989 13.3128 6.46006 13.3333 6.73502 13.3333C9.72657 13.3333 12.1517 10.9082 12.1517 7.91667C12.1517 7.02393 11.9418 6.18162 11.5658 5.43915C11.1885 4.69402 11.6857 3.59427 12.4439 3.94449C14.7312 5.00091 16.3184 7.31511 16.3184 10C16.3184 13.6819 13.3336 16.6667 9.65169 16.6667C7.73872 16.6667 6.01393 15.8609 4.79818 14.5704Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <span class="font-bold text-sm mr-[1px]">Dark</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                width="16"
+                height="16"
+                xlmns="http://www.w3.org/2000/svg"
+                class="sc-gueYoa itEvDZ sc-cCYyox bKLviX sc-cCYyox bKLviX"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
             </div>
           </div>
         </div>
