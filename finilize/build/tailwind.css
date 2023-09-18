@@ -1371,6 +1371,22 @@ video {
   --tw-content: '.';
   content: var(--tw-content);
 }
+.hover\:translate-y-3:hover {
+  --tw-translate-y: 0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-3:hover {
+  --tw-translate-y: -0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-1:hover {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:-translate-y-2:hover {
+  --tw-translate-y: -0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .hover\:border-2:hover {
   border-width: 2px;
 }
@@ -1417,14 +1433,6 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
-  .sm\:justify-around {
-    justify-content: space-around;
   }
 
   .sm\:justify-evenly {
@@ -1521,32 +1529,20 @@ video {
     height: 310;
   }
 
-  .lg\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .lg\:w-\[310\] {
-    width: 310;
-  }
-
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:w-1\/4 {
     width: 25%;
   }
 
-  .lg\:w-3 {
-    width: 0.75rem;
+  .lg\:w-10\/12 {
+    width: 83.333333%;
   }
 
   .lg\:w-3\/4 {
     width: 75%;
   }
 
-  .lg\:flex-1 {
-    flex: 1 1 0%;
+  .lg\:w-\[310\] {
+    width: 310;
   }
 
   .lg\:flex-row {
@@ -1555,18 +1551,6 @@ video {
 
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:justify-evenly {
-    justify-content: space-evenly;
-  }
-
-  .lg\:gap-5 {
-    gap: 1.25rem;
-  }
-
-  .lg\:gap-10 {
-    gap: 2.5rem;
   }
 }
 @media (min-width: 1280px) {
