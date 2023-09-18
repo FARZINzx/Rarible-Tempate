@@ -358,15 +358,26 @@
           <div class="pl-2 text-span-color2 hover:text-white duration-100 cursor-pointer">Activity</div>
         </div>
         <!--section filter-->
-        <div class="flex w-full gap-4 mt-4 overflow-hidden">
+        <div class="flex items-center w-full gap-4 mt-4 overflow-hidden">
           <div class="hidden lg:block">
-            <button class=" flex items-center justify-center text-white text-sm bg-a-back hover:bg-a-back-hover rounded-xl min-h-40 py-2 px-3">
+            <button class=" flex items-center justify-center text-white text-sm bg-a-back hover:bg-a-back-hover duration-150 rounded-xl min-h-40 py-2 px-3">
               <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="rotate-90"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z" fill="currentColor"></path></svg>
               <span class="ml-3 font-semibold">Filters</span>
             </button>
           </div>
-          <div class="hidden"></div>
-          <div class="hidden"></div>
+          <div class="hidden lg:block cursor-pointer">
+            <div class="w-10 h-5 flex items-center justify-end bg-white rounded-2xl">
+              <div class="w-3 h-3 mr-1 rounded-full bg-black"></div>
+            </div>
+          </div>
+          <div class="hidden lg:block">
+            <div class="flex items-center">
+              <span class="text-span-color2 mr-3 text-sm cursor-pointer">Live data</span>
+              <div
+                class="onAir-icon cursor-pointer mb-0 inline-block relative rounded-full w-2 h-2 bg-span-green before:content[''] before:absolute before:-top-1 before:left-0 before:-ml-1 before:scale-25 before:w-4 before:h-4 before:rounded-full before:animate-ping before:bg-green-500"
+              ></div>
+            </div>
+          </div>
           <div class="flex bg-a-back items-center  relative rounded-xl min-h-40 py-2 px-3 text-sm flex-1">
             <input type="text" class="bg-transparent ml-10 w-full outline-none placeholder:text-span-color2 " placeholder="Search by NFTs"/>
             <div class="absolute">
@@ -388,7 +399,7 @@
             <button>
               <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="sc-gueYoa ioMJjd"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.25 8.5C18.25 8.08579 17.9142 7.75 17.5 7.75H6.5C6.08579 7.75 5.75 8.08579 5.75 8.5C5.75 8.91421 6.08579 9.25 6.5 9.25H17.5C17.9142 9.25 18.25 8.91421 18.25 8.5ZM16.25 12C16.25 11.5858 15.9142 11.25 15.5 11.25H8.5C8.08579 11.25 7.75 11.5858 7.75 12C7.75 12.4142 8.08579 12.75 8.5 12.75H15.5C15.9142 12.75 16.25 12.4142 16.25 12ZM13 14.75C13.4142 14.75 13.75 15.0858 13.75 15.5C13.75 15.9142 13.4142 16.25 13 16.25H11C10.5858 16.25 10.25 15.9142 10.25 15.5C10.25 15.0858 10.5858 14.75 11 14.75H13Z" fill="currentColor"></path></svg>
           </div>
-          <div class=" text-white font-semibold text-sm bg-a-back hover:bg-a-back-hover rounded-xl min-h-40 py-2 px-3 w-10 hidden sm:block min-w-full">
+          <div class=" text-white font-semibold text-sm bg-a-back hover:bg-a-back-hover duration-150 rounded-xl min-h-40 py-2 px-3 w-10 hidden sm:block min-w-full">
             <button class="flex items-center justify-between">
               <span class="mr-2">Price:low to high</span>
               <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z" fill="currentColor"></path></svg>
