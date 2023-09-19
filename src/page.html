@@ -351,7 +351,7 @@
           </div>
         </div>
       </section>
-      <section class="section-filter flex flex-col">
+      <section class="section-filter flex  flex-col">
         <!--section-nav-->
         <div class="flex items-center w-full border-b-2 border-b-border-color font-semibold py-4 my-2">
           <div class="mr-4 pl-2 text-white relative before:content-[''] before:w-full before:absolute before:bg-white before:h-1 before:-bottom-4 before:left-1 before:rounded-t-md cursor-pointer ">Items</div>
@@ -419,17 +419,46 @@
           </div>
         </div>
       </section>
-      <section class="section-page-wrapper flex">
+      <section class="section-page-wrapper mt-4 flex">
         <!--page wrapper filter-->
-        <div class="hidden lg:block"></div>
+        <div class="hidden lg:block w-80 flex-none h-fit border-2 rounded-2xl border-border-color mr-4 ">
+          <div class="mr-4 mt-2 p-4 w-full ">
+            <div class="flex flex-col pb-6 mb-6 border-b-2 border-b-border-color">
+              <div class="flex items-center mb-4 justify-between w-full">
+                <span class="text-white text-lg font-semibold">Status</span>
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="rotate-180 text-white"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z" fill="currentColor"></path></svg>
+              </div>
+              <div class="flex flex-wrap gap-2 text-sm">
+                <div class="bg-white text-black font-semibold rounded-xl px-4 py-4 h-12 flex items-center justify-center">All</div>
+                <div class="bg-a-back text-white hover:bg-a-back-hover duration-150 font-semibold rounded-xl px-3 py-4 h-12 flex items-center justify-center">Buy now</div>
+                <div class="bg-a-back text-white hover:bg-a-back-hover duration-150 font-semibold rounded-xl px-3 py-4 h-12 flex items-center justify-center">Live auction</div>
+                <div class="bg-a-back text-white hover:bg-a-back-hover duration-150 font-semibold rounded-xl px-3 py-4 h-12 flex items-center justify-center">Not for sale</div>
+              </div>
+            </div>
+            <div class="flex flex-col pb-6 mb-6 border-b-2 border-b-border-color">
+              <div class="flex items-center mb-4 justify-between w-full">
+                <span class="text-white text-lg font-semibold">Price</span>
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xlmns="http://www.w3.org/2000/svg" class="rotate-180 text-white"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.46967 9.46967C7.76256 9.17678 8.23744 9.17678 8.53033 9.46967L12 12.9393L15.4697 9.46967C15.7626 9.17678 16.2374 9.17678 16.5303 9.46967C16.8232 9.76256 16.8232 10.2374 16.5303 10.5303L12.5303 14.5303C12.2374 14.8232 11.7626 14.8232 11.4697 14.5303L7.46967 10.5303C7.17678 10.2374 7.17678 9.76256 7.46967 9.46967Z" fill="currentColor"></path></svg>
+              </div>
+              <div class="flex flex-wrap gap-2 text-sm">
+                <div class="bg-white text-black font-semibold rounded-xl px-4 py-4 h-12 flex items-center justify-center">All</div>
+                <div class="bg-a-back text-white font-semibold rounded-xl px-3 py-4 h-12 flex items-center justify-center">Buy now</div>
+                <div class="bg-a-back text-white font-semibold rounded-xl px-3 py-4 h-12 flex items-center justify-center">Live auction</div>
+                <div class="bg-a-back text-white font-semibold rounded-xl px-3 py-4 h-12 flex items-center justify-center">Not for sale</div>
+              </div>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
         <!--page wrapper wrapp-->
-        <div class="min-h-[340px]">
-          <div class="flex flex-wrap gap-2">
-            <!--items-->
-            <div class="p-2 flex flex-col min-h-[194px] rounded-2xl border-2 border-border-color">
+        <div class="min-h-[340px] flex-1 ">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-2 min-[1100px]:grid-cols-3 xl:grid-cols-4  justify-center gap-2 ">
+            <!--items 1-->
+            <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
               <!--IMG-->
               <div class="mb-3 overflow-hidden relative" >
-                <img src="./assets/Image/page-wrapper-1.png"/>
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
               </div>
               <!--Text-->
               <div class="flex flex-col">
@@ -445,12 +474,12 @@
                       <i class="fa-solid fa-ellipsis"></i>
                     </div>
                    </div>
-                   <span class="text-white font-bold truncate">BoredApeYachtClub #5723</span>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
                 </div>
                 <div class="block md:hidden px-2">
                   <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
                  </div>
-                <div class="hidden md:block bg-a-back rounded-xl">
+                <div class="hidden lg:block bg-a-back rounded-xl">
                   <div class="flex flex-col max-w-[300px] p-3 ">
                     <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
                       <span>Price</span>
@@ -463,7 +492,436 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
+             <!--items 2-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 3-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 4-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 5-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 6-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 7-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 8-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 9-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 10-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 11-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+             <!--items 12-->
+             <div class="p-2 flex flex-col rounded-2xl border-2 border-border-color">
+              <!--IMG-->
+              <div class="mb-3 overflow-hidden relative" >
+                <img class="w-full" src="./assets/Image/page-wrapper-1.png"/>
+              </div>
+              <!--Text-->
+              <div class="flex flex-col">
+                <div class="flex flex-row-reverse md:flex-col justify-between items-center md:items-stretch px-2 md:mb-2 pb-1">
+                  <div class="flex flex-row items-center mb-2 justify-between">
+                    <div class="hidden md:block">
+                      <div class="flex">
+                        <h1 class="mr-2 text-span-color2 text-sm truncate max-w-full  text-center">Bored Ape Yacht Club</h1>
+                        <svg display="block" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.78117 0.743103C5.29164 -0.247701 6.70826 -0.247701 7.21872 0.743103C7.52545 1.33846 8.21742 1.62509 8.8553 1.42099C9.91685 1.08134 10.9186 2.08304 10.5789 3.1446C10.3748 3.78247 10.6614 4.47445 11.2568 4.78117C12.2476 5.29164 12.2476 6.70826 11.2568 7.21872C10.6614 7.52545 10.3748 8.21742 10.5789 8.8553C10.9186 9.91685 9.91685 10.9186 8.8553 10.5789C8.21742 10.3748 7.52545 10.6614 7.21872 11.2568C6.70826 12.2476 5.29164 12.2476 4.78117 11.2568C4.47445 10.6614 3.78247 10.3748 3.1446 10.5789C2.08304 10.9186 1.08134 9.91685 1.42099 8.8553C1.62509 8.21742 1.33846 7.52545 0.743103 7.21872C-0.247701 6.70826 -0.247701 5.29164 0.743103 4.78117C1.33846 4.47445 1.62509 3.78247 1.42099 3.1446C1.08134 2.08304 2.08304 1.08134 3.1446 1.42099C3.78247 1.62509 4.47445 1.33846 4.78117 0.743103Z" fill="#feda03"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.43961 4.23998C8.64623 4.43922 8.65221 4.76823 8.45297 4.97484L5.40604 8.13462L3.54703 6.20676C3.34779 6.00014 3.35377 5.67113 3.56039 5.47189C3.76701 5.27266 4.09602 5.27864 4.29526 5.48525L5.40604 6.63718L7.70475 4.25334C7.90398 4.04672 8.23299 4.04074 8.43961 4.23998Z" fill="#000000"></path></svg>
+                      </div>
+                    </div>
+                    <div class="flex text-span-color2 text-sm">
+                      <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                   </div>
+                   <span class="text-white font-bold truncate  w-20 md:text-sm md:w-44 overflow-auto">BoredApeYachtClub #5723</span>
+                </div>
+                <div class="block md:hidden px-2">
+                  <span class="text-span-color2 text-xs font-bold">Price: 28 ETH</span>
+                 </div>
+                <div class="hidden lg:block bg-a-back rounded-xl">
+                  <div class="flex flex-col max-w-[300px] p-3 ">
+                    <div class="flex items-center justify-between text-span-color2 font-medium text-xs mb-2">
+                      <span>Price</span>
+                      <span>Highest bid</span>
+                    </div>
+                    <div class="flex items-center justify-between font-medium text-xs text-white pt-2">
+                      <span>25.06 ETH</span>
+                      <span>No bids yet</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
           </div>
         </div>
       </section>
