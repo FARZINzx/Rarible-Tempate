@@ -605,6 +605,22 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.my-\[\] {
+  margin-top: ;
+  margin-bottom: ;
+}
+.my-\[1px\] {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.my-\[2px\] {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -638,8 +654,14 @@ video {
 .mb-\[2px\] {
   margin-bottom: 2px;
 }
+.ml-10 {
+  margin-left: 2.5rem;
+}
 .ml-2 {
   margin-left: 0.5rem;
+}
+.ml-3 {
+  margin-left: 0.75rem;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -689,18 +711,6 @@ video {
 .mt-9 {
   margin-top: 2.25rem;
 }
-.ml-10 {
-  margin-left: 2.5rem;
-}
-.ml-8 {
-  margin-left: 2rem;
-}
-.ml-4 {
-  margin-left: 1rem;
-}
-.ml-3 {
-  margin-left: 0.75rem;
-}
 .block {
   display: block;
 }
@@ -734,6 +744,9 @@ video {
 .h-24 {
   height: 6rem;
 }
+.h-3 {
+  height: 0.75rem;
+}
 .h-4 {
   height: 1rem;
 }
@@ -765,8 +778,8 @@ video {
 .h-full {
   height: 100%;
 }
-.h-3 {
-  height: 0.75rem;
+.h-9 {
+  height: 2.25rem;
 }
 .min-h-40 {
   min-height: 40px;
@@ -795,6 +808,9 @@ video {
 .w-24 {
   width: 6rem;
 }
+.w-3 {
+  width: 0.75rem;
+}
 .w-3\/4 {
   width: 75%;
 }
@@ -803,9 +819,6 @@ video {
 }
 .w-5 {
   width: 1.25rem;
-}
-.w-6 {
-  width: 1.5rem;
 }
 .w-64 {
   width: 16rem;
@@ -842,17 +855,8 @@ video {
   width: -moz-max-content;
   width: max-content;
 }
-.w-1\/5 {
-  width: 20%;
-}
-.w-1 {
-  width: 0.25rem;
-}
-.w-3 {
-  width: 0.75rem;
-}
-.w-4 {
-  width: 1rem;
+.w-28 {
+  width: 7rem;
 }
 .min-w-118 {
   min-width: 118px;
@@ -860,6 +864,9 @@ video {
 .min-w-full {
   min-width: -moz-max-content;
   min-width: max-content;
+}
+.min-w-80 {
+  min-width: 80px;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -879,21 +886,11 @@ video {
 .max-w-none {
   max-width: none;
 }
-.max-w-fit {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
 .flex-1 {
   flex: 1 1 0%;
 }
-.flex-shrink {
-  flex-shrink: 1;
-}
 .flex-grow {
   flex-grow: 1;
-}
-.flex-grow-0 {
-  flex-grow: 0;
 }
 .origin-center {
   transform-origin: center;
@@ -941,6 +938,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
 }
 .gap-1 {
   gap: 0.25rem;
@@ -1065,6 +1065,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(254 218 3 / var(--tw-bg-opacity));
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-body-background {
   --tw-bg-opacity: 1;
   background-color: rgb(25 28 31 / var(--tw-bg-opacity));
@@ -1112,6 +1116,10 @@ video {
 .bg-social-media-bg {
   background-color: rgba(25,28,31,0.2);
 }
+.bg-span-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 184 51 / var(--tw-bg-opacity));
+}
 .bg-swiper-icon-bg {
   --tw-bg-opacity: 1;
   background-color: rgb(44 50 54 / var(--tw-bg-opacity));
@@ -1122,14 +1130,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-span-green {
-  --tw-bg-opacity: 1;
-  background-color: rgb(40 184 51 / var(--tw-bg-opacity));
 }
 .bg-none {
   background-image: none;
@@ -1162,6 +1162,15 @@ video {
 }
 .p-8 {
   padding: 2rem;
+}
+.p-\[\] {
+  padding: ;
+}
+.p-\[2px\] {
+  padding: 2px;
+}
+.p-\[1px\] {
+  padding: 1px;
 }
 .px-1 {
   padding-left: 0.25rem;
@@ -1233,9 +1242,6 @@ video {
 }
 .pl-1 {
   padding-left: 0.25rem;
-}
-.pl-10 {
-  padding-left: 2.5rem;
 }
 .pl-2 {
   padding-left: 0.5rem;
@@ -1514,6 +1520,11 @@ video {
   content: var(--tw-content);
   background-color: rgba(255,255,255,0.08);
 }
+.before\:bg-green-500::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
 .before\:bg-onAir-before-bg::before {
   content: var(--tw-content);
   background-color: rgba(255,255,255,.2);
@@ -1522,11 +1533,6 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.before\:bg-green-500::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 .before\:px-3::before {
   content: var(--tw-content);
@@ -1587,10 +1593,6 @@ video {
 
   .sm\:block {
     display: block;
-  }
-
-  .sm\:flex {
-    display: flex;
   }
 
   .sm\:hidden {
