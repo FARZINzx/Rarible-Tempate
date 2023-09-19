@@ -1641,12 +1641,20 @@ video {
     margin-top: 1rem;
   }
 
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .md\:block {
     display: block;
   }
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-32 {
@@ -1720,6 +1728,10 @@ video {
   .md\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+  }
+
+  .md\:pb-1 {
+    padding-bottom: 0.25rem;
   }
 
   .md\:text-left {
