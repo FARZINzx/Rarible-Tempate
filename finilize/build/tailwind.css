@@ -578,9 +578,6 @@ video {
 .z-50 {
   z-index: 50;
 }
-.m-1 {
-  margin: 0.25rem;
-}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -604,18 +601,6 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-.my-\[\] {
-  margin-top: ;
-  margin-bottom: ;
-}
-.my-\[1px\] {
-  margin-top: 1px;
-  margin-bottom: 1px;
 }
 .my-\[2px\] {
   margin-top: 2px;
@@ -762,6 +747,9 @@ video {
 .h-8 {
   height: 2rem;
 }
+.h-9 {
+  height: 2.25rem;
+}
 .h-\[118px\] {
   height: 118px;
 }
@@ -778,11 +766,14 @@ video {
 .h-full {
   height: 100%;
 }
-.h-9 {
-  height: 2.25rem;
-}
 .min-h-40 {
   min-height: 40px;
+}
+.min-h-\[194px\] {
+  min-height: 194px;
+}
+.min-h-\[340px\] {
+  min-height: 340px;
 }
 .min-h-\[54px\] {
   min-height: 54px;
@@ -807,6 +798,9 @@ video {
 }
 .w-24 {
   width: 6rem;
+}
+.w-28 {
+  width: 7rem;
 }
 .w-3 {
   width: 0.75rem;
@@ -855,9 +849,6 @@ video {
   width: -moz-max-content;
   width: max-content;
 }
-.w-28 {
-  width: 7rem;
-}
 .min-w-118 {
   min-width: 118px;
 }
@@ -865,14 +856,14 @@ video {
   min-width: -moz-max-content;
   min-width: max-content;
 }
-.min-w-80 {
-  min-width: 80px;
-}
 .max-w-2xl {
   max-width: 42rem;
 }
 .max-w-5xl {
   max-width: 64rem;
+}
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 .max-w-\[460px\] {
   max-width: 460px;
@@ -911,6 +902,9 @@ video {
 }
 .flex-row {
   flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 .flex-col {
   flex-direction: column;
@@ -1163,15 +1157,6 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.p-\[\] {
-  padding: ;
-}
-.p-\[2px\] {
-  padding: 2px;
-}
-.p-\[1px\] {
-  padding: 1px;
-}
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1263,6 +1248,9 @@ video {
 }
 .pt-1 {
   padding-top: 0.25rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
 }
 .pt-20 {
   padding-top: 5rem;
@@ -1697,12 +1685,32 @@ video {
     flex-direction: row;
   }
 
+  .md\:flex-col {
+    flex-direction: column;
+  }
+
   .md\:items-start {
     align-items: flex-start;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:items-stretch {
+    align-items: stretch;
+  }
+
+  .md\:justify-normal {
+    justify-content: normal;
+  }
+
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:p-8 {
