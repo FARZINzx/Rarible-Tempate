@@ -54,3 +54,7 @@
      display: block;
 }
 
+.backdrop-menu{
+     backdrop-filter: blur(6px);
+}
+
