@@ -38,4 +38,19 @@
    transform:  translateX(10px) rotate(-90deg);
 }
 
+.filter-items:hover .filter-items-overal{
+     display: block;
+}
+
+.filter-items-overal{
+     background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(25, 28, 31, 0.5) 95%)
+}
+
+.filter-items:hover .filter-icons{
+     display: none;
+}
+
+.filter-items:hover .filter-btn{
+     display: block;
+}
 
