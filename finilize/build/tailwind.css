@@ -494,6 +494,9 @@ video {
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .-bottom-7 {
   bottom: -1.75rem;
 }
@@ -772,9 +775,6 @@ video {
 .h-full {
   height: 100%;
 }
-.h-6 {
-  height: 1.5rem;
-}
 .min-h-40 {
   min-height: 40px;
 }
@@ -795,6 +795,12 @@ video {
 }
 .w-128 {
   width: 15.2rem;
+}
+.w-14 {
+  width: 3.5rem;
+}
+.w-16 {
+  width: 4rem;
 }
 .w-2 {
   width: 0.5rem;
@@ -858,8 +864,17 @@ video {
   width: -moz-max-content;
   width: max-content;
 }
-.w-6 {
-  width: 1.5rem;
+.w-1 {
+  width: 0.25rem;
+}
+.w-12 {
+  width: 3rem;
+}
+.w-9 {
+  width: 2.25rem;
+}
+.w-96 {
+  width: 24rem;
 }
 .min-w-118 {
   min-width: 118px;
@@ -979,6 +994,9 @@ video {
 .gap-\[4rem\] {
   gap: 4rem;
 }
+.gap-3\.5 {
+  gap: 0.875rem;
+}
 .overflow-auto {
   overflow: auto;
 }
@@ -990,6 +1008,9 @@ video {
 }
 .overflow-x-auto {
   overflow-x: auto;
+}
+.overflow-y-auto {
+  overflow-y: auto;
 }
 .overflow-x-hidden {
   overflow-x: hidden;
@@ -1022,9 +1043,6 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
-}
-.rounded {
-  border-radius: 0.25rem;
 }
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
@@ -1118,10 +1136,6 @@ video {
 }
 .bg-popUp-menu {
   background-color: rgba(25,28,31,.85);
-}
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 .bg-section-1-background {
   --tw-bg-opacity: 1;
@@ -1245,9 +1259,9 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -1260,6 +1274,9 @@ video {
 }
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 .pl-1 {
   padding-left: 0.25rem;
@@ -1300,8 +1317,14 @@ video {
 .pt-7 {
   padding-top: 1.75rem;
 }
-.pb-6 {
-  padding-bottom: 1.5rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
 }
 .text-left {
   text-align: left;
@@ -1597,6 +1620,22 @@ video {
 }
 .hover\:outline-2:hover {
   outline-width: 2px;
+}
+.focus\:border-2:focus {
+  border-width: 2px;
+}
+.focus\:border-border-color:focus {
+  border-color: rgba(255,255,255,0.08);
+}
+.focus\:bg-black:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.focus\:bg-transparent:focus {
+  background-color: transparent;
+}
+.focus\:outline-1:focus {
+  outline-width: 1px;
 }
 @media (max-width: 425px) {
 
